@@ -11,11 +11,13 @@ scoreboard objectives remove mm_install
 scoreboard objectives remove menu
 scoreboard objectives remove spa_a_test
 
+scoreboard objectives remove mm_version
+
+
 team remove mm_nonametag
 
-kill @e[type=minecraft:area_effect_cloud,tag=random]
-
-execute in overworld run forceload remove 29999976 29999976
+#kill @e[type=minecraft:area_effect_cloud,tag=random]
+#execute in overworld run forceload remove 29999976 29999976
 
 datapack disable "file/more_mobs"
 datapack disable "file/more_mobs.zip"

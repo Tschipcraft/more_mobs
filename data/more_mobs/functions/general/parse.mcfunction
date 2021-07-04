@@ -1,7 +1,7 @@
 ## by Tschipcraft
 
 execute as @s[type=!player] run function more_mobs:generate_random_number
-data merge entity @s[type=!minecraft:mooshroom] {ArmorDropChances:[0.085F,0.085F,0.085F,0.030F]}
+data merge entity @s[type=!minecraft:mooshroom,type=!minecraft:evoker] {ArmorDropChances:[0.085F,0.085F,0.085F,0.030F]}
 
 # Mooshroom
 execute as @s[type=minecraft:mooshroom,tag=!parsed,scores={random=14..}] run data merge entity @s {Type:"brown"}
@@ -12,22 +12,27 @@ execute as @s[type=minecraft:evoker,tag=!parsed,scores={random=17..}] run functi
 # Skeleton
 execute as @s[type=minecraft:skeleton,tag=!parsed,scores={random=10..11}] run function more_mobs:skeleton/zombie
 execute as @s[type=minecraft:skeleton,tag=!parsed,scores={random=12..13}] run function more_mobs:skeleton/magic
-execute as @s[type=minecraft:skeleton,tag=!parsed,scores={random=6..9}] if block ~ ~-1 ~ minecraft:grass_block[snowy=true] run function more_mobs:skeleton/snowy
-execute as @s[type=minecraft:skeleton,tag=!parsed,scores={random=12..16}] if block ~ ~ ~ minecraft:water run function more_mobs:skeleton/captain
-execute as @s[type=minecraft:skeleton,tag=!parsed,scores={random=6..9}] if block ~ ~ ~ minecraft:water run function more_mobs:skeleton/pirate
+execute as @s[type=minecraft:skeleton,tag=!parsed,scores={random=5..9}] if block ~ ~-1 ~ minecraft:grass_block[snowy=true] run function more_mobs:skeleton/snowy
+execute as @s[type=minecraft:skeleton,tag=!parsed,scores={random=12..14}] if block ~ ~ ~ minecraft:water run function more_mobs:skeleton/captain
+execute as @s[type=minecraft:skeleton,tag=!parsed,scores={random=6..11}] if block ~ ~ ~ minecraft:water run function more_mobs:skeleton/pirate
+execute as @s[type=minecraft:skeleton,tag=!parsed,scores={random=1..5}] if block ~ ~ ~ minecraft:water run function more_mobs:skeleton/sea
+execute as @s[type=minecraft:skeleton,tag=!parsed,scores={random=15..19}] if block ~ ~ ~ minecraft:water run function more_mobs:skeleton/drowned
 execute as @s[type=minecraft:skeleton,tag=!parsed,scores={random=14..16}] if block ~ ~-1 ~ #more_mobs:jungle_blocks run function more_mobs:skeleton/mossy
-execute as @s[type=minecraft:skeleton,tag=!parsed,scores={random=16..18}] if block ~ ~ ~ minecraft:water run function more_mobs:skeleton/drowned
 execute as @s[type=minecraft:skeleton,tag=!parsed,scores={random=16..}] if block ~ ~-1 ~ minecraft:grass_block run function more_mobs:skeleton/overgrown
-execute as @s[type=minecraft:skeleton,tag=!parsed,scores={random=17..}] if block ~ ~-1 ~ #minecraft:sand run function more_mobs:skeleton/pharaoh
+execute as @s[type=minecraft:skeleton,tag=!parsed,scores={random=1..6}] if block ~ ~-1 ~ #minecraft:sand run function more_mobs:skeleton/pharaoh
+execute as @s[type=minecraft:skeleton,tag=!parsed,scores={random=9..11}] if block ~ ~-1 ~ #minecraft:base_stone_overworld run function more_mobs:skeleton/miner
 execute as @s[type=minecraft:skeleton,tag=!parsed,scores={random=12..16}] if block ~ ~-1 ~ #minecraft:base_stone_overworld run function more_mobs:skeleton/radioactive
 execute as @s[type=minecraft:skeleton,tag=!parsed,scores={random=16..}] if block ~ ~-1 ~ #minecraft:base_stone_overworld run function more_mobs:skeleton/rotting
-execute as @s[type=minecraft:skeleton,tag=!parsed,scores={random=0..19}] if block ~ ~-1 ~ minecraft:warped_nylium run function more_mobs:skeleton/warped
+function more_mobs:general/parse_116
 execute as @s[type=minecraft:skeleton,tag=!parsed,scores={random=19..}] run function more_mobs:skeleton/creeper
 
 # Stray
+execute as @s[type=minecraft:stray,tag=!parsed,scores={random=14..17}] run function more_mobs:stray/creepy
 execute as @s[type=minecraft:stray,tag=!parsed,scores={random=11..13}] run function more_mobs:stray/queen
 
 # Wither Skeleton
+execute as @s[type=minecraft:wither_skeleton,tag=!parsed,scores={random=3..4}] run function more_mobs:wither_skeleton/goggles
+execute as @s[type=minecraft:wither_skeleton,tag=!parsed,scores={random=5..6}] run function more_mobs:wither_skeleton/steve
 execute as @s[type=minecraft:wither_skeleton,tag=!parsed,scores={random=7..10}] run function more_mobs:wither_skeleton/ornate
 execute as @s[type=minecraft:wither_skeleton,tag=!parsed,scores={random=11..12}] run function more_mobs:wither_skeleton/burned
 execute as @s[type=minecraft:wither_skeleton,tag=!parsed,scores={random=13..15}] run function more_mobs:wither_skeleton/magma_1
@@ -46,8 +51,9 @@ execute as @s[type=minecraft:zombie,tag=!parsed,scores={random=4..6}] run functi
 execute as @s[type=minecraft:zombie,tag=!parsed,scores={random=13..18}] if block ~ ~-1 ~ #more_mobs:jungle_blocks run function more_mobs:zombie/jungle
 execute as @s[type=minecraft:zombie,tag=!parsed,scores={random=6..11}] if block ~ ~-1 ~ minecraft:grass_block[snowy=true] run function more_mobs:zombie/snowy
 execute as @s[type=minecraft:zombie,tag=!parsed,scores={random=14..19}] if block ~ ~-1 ~ minecraft:grass_block[snowy=true] run function more_mobs:zombie/frozen
-execute as @s[type=minecraft:zombie,tag=!parsed,scores={random=14..19}] if block ~ ~-1 ~ #minecraft:ice run function more_mobs:zombie/frozen
+execute as @s[type=minecraft:zombie,tag=!parsed,scores={random=11..19}] if block ~ ~-1 ~ #minecraft:ice run function more_mobs:zombie/frozen
 execute as @s[type=minecraft:zombie,tag=!parsed,scores={random=12..16}] if block ~ ~ ~ minecraft:water run function more_mobs:zombie/lake
+execute as @s[type=minecraft:zombie,tag=!parsed,scores={random=8..11}] if block ~ ~ ~ minecraft:water run function more_mobs:zombie/swamp
 execute as @s[type=minecraft:zombie,tag=!parsed,scores={random=12..14}] if block ~ ~-1 ~ #minecraft:base_stone_overworld run function more_mobs:zombie/miner_1
 execute as @s[type=minecraft:zombie,tag=!parsed,scores={random=15..16}] if block ~ ~-1 ~ #minecraft:base_stone_overworld run function more_mobs:zombie/miner_2
 execute as @s[type=minecraft:zombie,tag=!parsed,scores={random=16..}] if block ~ ~-1 ~ #minecraft:base_stone_overworld run function more_mobs:zombie/rotting
