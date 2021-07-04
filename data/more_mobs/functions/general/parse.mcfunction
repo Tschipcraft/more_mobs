@@ -62,12 +62,12 @@ execute as @s[type=minecraft:zombie,tag=!parsed,scores={random=19..20}] run func
 # Drowned
 execute as @s[type=minecraft:drowned,tag=!parsed,scores={random=4..5}] run function more_mobs:drowned/drowned_2
 execute as @s[type=minecraft:drowned,tag=!parsed,scores={random=6..7}] run function more_mobs:drowned/dark_drowned
-execute as @s[type=minecraft:drowned,tag=!parsed,scores={random=8..10}] run function more_mobs:drowned/drowned
-execute as @s[type=minecraft:drowned,tag=!parsed,scores={random=11..12}] run function more_mobs:drowned/witch
+execute as @s[type=minecraft:drowned,tag=!parsed,scores={random=8..10}] run function more_mobs:drowned/drowned_1
+execute as @s[type=minecraft:drowned,tag=!parsed,scores={random=11..12}] run function more_mobs:drowned/captain_2
 execute as @s[type=minecraft:drowned,tag=!parsed,scores={random=13}] run function more_mobs:drowned/villager
 execute as @s[type=minecraft:drowned,tag=!parsed,scores={random=14..15}] run function more_mobs:drowned/pirate
 execute as @s[type=minecraft:drowned,tag=!parsed,scores={random=16..17}] run function more_mobs:drowned/pillager
-execute as @s[type=minecraft:drowned,tag=!parsed,scores={random=18..}] run function more_mobs:drowned/captain
+execute as @s[type=minecraft:drowned,tag=!parsed,scores={random=18..}] run function more_mobs:drowned/captain_1
 
 
 tag @s add parsed

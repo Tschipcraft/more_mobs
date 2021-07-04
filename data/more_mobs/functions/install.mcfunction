@@ -7,7 +7,7 @@ scoreboard objectives add ran4 dummy
 scoreboard objectives add ran5 dummy
 scoreboard objectives add random dummy
 
-scoreboard players set generator ran1 1430920
+execute unless score generator ran1 matches 0.. run scoreboard players set generator ran1 1430920
 scoreboard players set generator ran2 16383
 scoreboard players set generator ran3 131071
 scoreboard players set generator ran4 21
