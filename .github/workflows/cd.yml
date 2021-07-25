@@ -3,6 +3,7 @@ on:
   push:
     tags: "v*"
   page_build:
+  workflow_dispatch:
 
 jobs:
   create_data_pack:
