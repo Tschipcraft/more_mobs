@@ -1,13 +1,9 @@
 name: Continuous Deployment
 on:
-  push:
-    branches:
-    - "main"
-  page_build:
   workflow_dispatch:
     inputs:
       tag:
-        description: 'version of the data pacl'
+        description: 'version of the data pack'
         required: true
         default: 'v1.0'
 
