@@ -2,6 +2,7 @@ name: Continuous Deployment
 on:
   push:
     tags: "v*"
+  page_build:
 
 jobs:
   create_data_pack:
