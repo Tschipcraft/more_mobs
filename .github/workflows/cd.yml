@@ -1,7 +1,8 @@
 name: Continuous Deployment
 on:
   push:
-    tags: "v*"
+    branches:
+    - "main"
   page_build:
   workflow_dispatch:
 
