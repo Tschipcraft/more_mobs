@@ -61,7 +61,7 @@ jobs:
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: ./assetpack.zip
-          asset_name: ${{ github.event.repository.name }}-${{ steps.tag_version.outputs.TAG_VERSION }}-mc${{ steps.mc_version.outputs.MC_VERSION }}-resourcepack.zip
+          asset_name: ${{ github.event.repository.name }}-$github.event.commits[0].message-mc${{ steps.mc_version.outputs.MC_VERSION }}-resourcepack.zip
           asset_content_type: application/zip
       - name: Upload datapack release asset
         uses: actions/upload-release-asset@v1
@@ -71,5 +71,5 @@ jobs:
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: ./datapack.zip
-          asset_name: ${{ github.event.repository.name }}-${{ steps.tag_version.outputs.TAG_VERSION }}-mc${{ steps.mc_version.outputs.MC_VERSION }}-datapack.zip
+          asset_name: ${{ github.event.repository.name }}-$github.event.commits[0].message-mc${{ steps.mc_version.outputs.MC_VERSION }}-datapack.zip
           asset_content_type: application/zip
