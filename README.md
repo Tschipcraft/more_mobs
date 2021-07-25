@@ -15,7 +15,7 @@ To exclude an entity, give it the tag exclude
 
 ## Installation
 
-Download the latest release from [here][latest] and put the datapack zip file into the `datapacks` folder of your Minecraft world.
+Download the latest release from [here](https://github.com/Tschipcraft/more_mobs/releases/latest) and put the datapack zip file into the `datapacks` folder of your Minecraft world.
 
 
 ## Updates
