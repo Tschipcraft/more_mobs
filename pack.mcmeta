@@ -1,6 +1,6 @@
 {
    "pack":{
-      "pack_format" : 7,
-      "description" : [{"text":"More Mobs by Tschipcraft","color":"gold","bold":"true"},{"text":"\nfor 1.14x / 1.17x","color":"light_purple","bold":"false"}]
+      "pack_format" : 8,
+      "description" : [{"text":"More Mobs by Tschipcraft","color":"gold","bold":"true"},{"text":"\nfor 1.14x / 1.18x","color":"light_purple","bold":"false"}]
    }
 }

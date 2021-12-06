@@ -1,6 +1,6 @@
 # More Mobs
 
-> A data pack for 1.14x-1.17x
+> A data pack for 1.14x-1.18x
 
 ## Features
 

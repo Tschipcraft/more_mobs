@@ -21,5 +21,7 @@ team remove mm_nonametag
 
 datapack disable "file/more_mobs"
 datapack disable "file/more_mobs.zip"
+datapack disable "file/more_mobs-v1.2-mc1.18-datapack.zip"
 
-say More Mobs by Tschipcraft successfully uninstalled by @s
+
+say More Mobs by Tschipcraft successfully uninstalled by @s!
