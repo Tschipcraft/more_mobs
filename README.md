@@ -1,5 +1,6 @@
 # More Mobs
 
+![icon](pack.png)
 > A data pack for 1.14x-1.18x
 
 ## Features
