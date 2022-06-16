@@ -17,6 +17,8 @@ scoreboard objectives add mm_install dummy
 scoreboard objectives add menu trigger
 scoreboard objectives add spa_a_test dummy
 
+scoreboard objectives add tvc_ignore dummy
+
 team remove mm_nonametag
 team add mm_nonametag
 team modify mm_nonametag nametagVisibility never

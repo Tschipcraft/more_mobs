@@ -1,6 +1,6 @@
 {
-   "pack":{
-      "pack_format" : 8,
-      "description" : [{"text":"More Mobs by Tschipcraft","color":"gold","bold":"true"},{"text":"\nfor 1.14x / 1.18x","color":"light_purple","bold":"false"}]
-   }
+  "pack": {
+    "pack_format": 10,
+    "description": "More Mobs by Tschipcraft // Minecraft 1.14x-1.19x"
+  }
 }

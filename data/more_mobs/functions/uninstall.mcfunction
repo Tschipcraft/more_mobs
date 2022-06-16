@@ -12,6 +12,7 @@ scoreboard objectives remove menu
 scoreboard objectives remove spa_a_test
 
 scoreboard objectives remove mm_version
+scoreboard objectives remove tvc_ignore
 
 
 team remove mm_nonametag
@@ -21,7 +22,7 @@ team remove mm_nonametag
 
 datapack disable "file/more_mobs"
 datapack disable "file/more_mobs.zip"
-datapack disable "file/more_mobs-v1.2.2-mc1.18-datapack.zip"
+datapack disable "file/more_mobs-v1.2.3-mc1.19-datapack.zip"
 
 
 say More Mobs by Tschipcraft successfully uninstalled by @s!
