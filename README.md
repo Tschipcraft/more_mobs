@@ -11,7 +11,7 @@ No Resource pack needed!
 **Supported Entities:**
 Zombies, Husks, Drowned, Skeletons, Strays, Wither Skeletons, Mooshrooms, Illusioners
 
-To exclude an entity, give it the tag exclude
+To exclude an entity, give it the tag `exclude`
 
 
 ## Installation
