@@ -14,15 +14,18 @@ scoreboard objectives remove spa_a_test
 scoreboard objectives remove mm_version
 scoreboard objectives remove tvc_ignore
 
+# Settings
+scoreboard objectives add mm_settings dummy
 
+# Team
 team remove mm_nonametag
 
 #kill @e[type=minecraft:area_effect_cloud,tag=random]
 #execute in overworld run forceload remove 29999976 29999976
 
+# Finalize
 datapack disable "file/more_mobs"
 datapack disable "file/more_mobs.zip"
-datapack disable "file/more_mobs-v1.2.3-mc1.19-datapack.zip"
-
+datapack disable "file/more_mobs-v1.3-mc1.19-datapack.zip"
 
 say More Mobs by Tschipcraft successfully uninstalled by @s!

@@ -18,6 +18,8 @@ execute if score mm_upsided_s mm_settings matches 1 as @e[type=minecraft:spider,
 execute if score mm_upsided_s mm_settings matches 1 as @e[type=minecraft:cave_spider,tag=!OnCeiling] at @s if block ~ ~-0.1 ~ #more_mobs:air unless block ~ ~0.5 ~ #more_mobs:air run function more_mobs:spider/onceiling
 execute if score mm_upsided_s mm_settings matches 1 as @e[type=minecraft:cave_spider,tag=OnCeiling] at @s if block ~ ~0.5 ~ #more_mobs:air run function more_mobs:spider/inair
 
+## Parse items
+execute as @e[type=minecraft:item,tag=!mm_parsed_item] if entity @s[nbt={Item:{id:"minecraft:player_head"}}] run function more_mobs:parse_head_items
 
 ## Menu
 scoreboard players enable @a menu
