@@ -8,6 +8,9 @@
 		"minecraft:wither_skeleton",
 		"minecraft:husk",
 		"minecraft:zombie",
-		"minecraft:drowned"
+		"minecraft:drowned",
+		"minecraft:pillager",
+		"minecraft:evoker",
+		"minecraft:vindicator"
 	]
 }
