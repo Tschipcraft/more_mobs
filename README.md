@@ -1,6 +1,12 @@
-# More Mobs
+<h1 align="center">
+  <img src="/pack.png" width="64" height="64"><br/>
+  More Mobs
+</h1>
+<p align="center">
+  <a href="https://github.com/Tschipcraft/more_mobs/stargazers"><img src="https://img.shields.io/github/stars/Tschipcraft/more_mobs?colorA=1b1b29&colorB=bd5216&style=for-the-badge"></a>
+  <a href="https://github.com/Tschipcraft/more_mobs/releases/latest"><img src="https://img.shields.io/github/downloads/Tschipcraft/more_mobs/total?logo=github&colorA=1b1b29&colorB=bd5216&style=for-the-badge"></a>
+</p>
 
-![icon](pack.png)
 > A data pack for 1.14x-1.19x
 
 ## Features
