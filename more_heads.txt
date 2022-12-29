@@ -7,38 +7,30 @@ https://minecraft-heads.com/custom-heads/humanoid/57589-mummy-husk
 
 Zombie
 https://minecraft-heads.com/custom-heads/humanoid/52522-smiling-zombie
-https://minecraft-heads.com/custom-heads/monsters/50837-enderman-zombie
-https://minecraft-heads.com/custom-heads/humanoid/52306-sculk-zombie
-https://minecraft-heads.com/custom-heads/humanoid/44844-lobber-zombie
-https://minecraft-heads.com/custom-heads/humanoid/44843-bouldering-zombie
 !https://minecraft-heads.com/custom-heads/humanoid/56627-frozen-zombie
 !https://minecraft-heads.com/custom-heads/humanoid/41301-gray-zombie
 
 Skeleton
-https://minecraft-heads.com/custom-heads/humanoid/52494-sculk-skeleton
-https://minecraft-heads.com/custom-heads/monsters/52050-deep-dark-corpse
-https://minecraft-heads.com/custom-heads/humanoid/49791-sunken-skeleton
 https://minecraft-heads.com/custom-heads/humanoid/40335-skeleton-with-glow-squid-hat
 
-https://minecraft-heads.com/custom-heads/monsters/53253-sculk-horror
-
 Wither Skeleton
-https://minecraft-heads.com/custom-heads/humanoid/53250-crimson-wither-skeleton
-https://minecraft-heads.com/custom-heads/humanoid/50492-ethereal-wither-skull
-https://minecraft-heads.com/custom-heads/humanoid/50466-wither-skeleton-demon
-https://minecraft-heads.com/custom-heads/monsters/41739-magma-cube
 https://minecraft-heads.com/custom-heads/humanoid/47961-superior-wither-helmet
 https://minecraft-heads.com/custom-heads/monsters/53877-soul-sand-creeper
 
-https://minecraft-heads.com/custom-heads/humanoid/42955-stray
+Stray
+https://minecraft-heads.com/custom-heads/animals/55412-stray-pig
 
-!
-https://minecraft-heads.com/custom-heads/humanoid/43359-pharaoh
-https://minecraft-heads.com/custom-heads/humanoid/36394-robot
+Piglin
+https://minecraft-heads.com/custom-heads/monsters/46187-piglin (Monocle)
+https://minecraft-heads.com/custom-heads/humanoid/35367-warped-piglin
+https://minecraft-heads.com/custom-heads/humanoid/57197-piglin-king
+https://minecraft-heads.com/custom-heads/humanoid/52828-chief-scorn (King alternate)
+https://minecraft-heads.com/custom-heads/humanoid/53068-piglin (Eyepatch)
+
+Vindicator
+https://minecraft-heads.com/custom-heads/humanoid/37460-chef-vindicator (Chef)
 
 ?
-https://minecraft-heads.com/custom-heads/humanoid/52828-chief-scorn
-https://minecraft-heads.com/custom-heads/humanoid/53068-piglin
 https://minecraft-heads.com/custom-heads/humanoid/37383-three-eyed-steve
 https://minecraft-heads.com/custom-heads/humanoid/23877-dead-illusioner
 https://minecraft-heads.com/custom-heads/humanoid/23866-drowned-witch

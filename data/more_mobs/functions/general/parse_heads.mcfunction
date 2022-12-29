@@ -20,8 +20,8 @@ execute as @s[type=minecraft:skeleton,tag=!parsed,scores={random=17..19}] if blo
 execute as @s[type=minecraft:skeleton,tag=!parsed,scores={random=14..16}] if block ~ ~-1 ~ #more_mobs:jungle_blocks run function more_mobs:skeleton/mossy
 execute as @s[type=minecraft:skeleton,tag=!parsed,scores={random=16..}] if block ~ ~-1 ~ minecraft:grass_block run function more_mobs:skeleton/overgrown
 execute as @s[type=minecraft:skeleton,tag=!parsed,scores={random=1..6}] if block ~ ~-1 ~ #minecraft:sand run function more_mobs:skeleton/egyptian_helper
-execute as @s[type=minecraft:skeleton,tag=!parsed,scores={random=9..11}] if block ~ ~-1 ~ #minecraft:base_stone_overworld run function more_mobs:skeleton/miner
-execute as @s[type=minecraft:skeleton,tag=!parsed,scores={random=12..16}] if block ~ ~-1 ~ #minecraft:base_stone_overworld run function more_mobs:skeleton/radioactive
+execute as @s[type=minecraft:skeleton,tag=!parsed,scores={random=9..11}] if block ~ ~ ~ minecraft:cave_air run function more_mobs:skeleton/miner
+execute as @s[type=minecraft:skeleton,tag=!parsed,scores={random=12..16}] if block ~ ~ ~ minecraft:cave_air run function more_mobs:skeleton/radioactive
 execute as @s[type=minecraft:skeleton,tag=!parsed,scores={random=16..}] if block ~ ~-1 ~ #minecraft:base_stone_overworld run function more_mobs:skeleton/rotting
 execute as @s[type=minecraft:skeleton,tag=!parsed,scores={random=19}] run function more_mobs:skeleton/creeper
 execute as @s[type=minecraft:skeleton,tag=!parsed,scores={random=20}] run function more_mobs:skeleton/necromancer
@@ -61,8 +61,8 @@ execute as @s[type=minecraft:zombie,tag=!parsed,scores={random=12..16}] if block
 execute as @s[type=minecraft:zombie,tag=!parsed,scores={random=8..11}] if block ~ ~ ~ minecraft:water run function more_mobs:zombie/swamp
 execute as @s[type=minecraft:zombie,tag=!parsed,scores={random=9}] run function more_mobs:zombie/lobber
 execute as @s[type=minecraft:zombie,tag=!parsed,scores={random=10..11}] if block ~ ~-1 ~ #minecraft:base_stone_overworld run function more_mobs:zombie/boulder
-execute as @s[type=minecraft:zombie,tag=!parsed,scores={random=12..14}] if block ~ ~-1 ~ #minecraft:base_stone_overworld run function more_mobs:zombie/miner_1
-execute as @s[type=minecraft:zombie,tag=!parsed,scores={random=15..16}] if block ~ ~-1 ~ #minecraft:base_stone_overworld run function more_mobs:zombie/miner_2
+execute as @s[type=minecraft:zombie,tag=!parsed,scores={random=12..14}] if block ~ ~ ~ minecraft:cave_air run function more_mobs:zombie/miner_1
+execute as @s[type=minecraft:zombie,tag=!parsed,scores={random=15..16}] if block ~ ~ ~ minecraft:cave_air run function more_mobs:zombie/miner_2
 execute as @s[type=minecraft:zombie,tag=!parsed,scores={random=16..}] if block ~ ~-1 ~ #minecraft:base_stone_overworld run function more_mobs:zombie/rotting
 execute as @s[type=minecraft:zombie,tag=!parsed,scores={random=19..20}] run function more_mobs:zombie/bloody
 

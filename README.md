@@ -15,14 +15,15 @@ Mobs have new variants through custom heads or through hidden vanilla mobs!
 No Resource pack needed!
 
 **Supported Entities:**
-Zombies, Husks, Drowned, Skeletons, Strays, Wither Skeletons, Mooshrooms, Illusioners
+Zombies, Husks, Drowned, Skeletons, Strays, Wither Skeletons, Mooshrooms, Piglins, Pillagers, Evokers and Vindicators
 
-To exclude an entity, give it the tag `exclude`
+To exclude a specific entity, give it the tag `exclude`
 
+[For more information take a look at the wiki](https://github.com/Tschipcraft/more_mobs/wiki)
 
 ## Installation
 
-Download the latest release from [here](https://github.com/Tschipcraft/more_mobs/releases/latest) and put the datapack .zip file into the `datapacks` folder of your Minecraft world.
+Download the latest release from [here](https://github.com/Tschipcraft/more_mobs/releases/latest) and put the data pack .zip file into the `datapacks` folder of your Minecraft world.
 
 
 ## Updates

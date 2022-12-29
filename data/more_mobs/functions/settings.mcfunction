@@ -1,3 +1,3 @@
 ## by Tschipcraft
 
-tellraw @s {"text":"=-= Settings =-=","bold":true,"color":"green"}
+function more_mobs:settings/core
