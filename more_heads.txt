@@ -9,13 +9,21 @@ Zombie
 https://minecraft-heads.com/custom-heads/humanoid/52522-smiling-zombie
 !https://minecraft-heads.com/custom-heads/humanoid/56627-frozen-zombie
 !https://minecraft-heads.com/custom-heads/humanoid/41301-gray-zombie
+https://minecraft-heads.com/custom-heads/humanoid/60468-elite-zombie
+https://minecraft-heads.com/custom-heads/humanoid/57740-acid-spitter-zombie
 
 Skeleton
 https://minecraft-heads.com/custom-heads/humanoid/40335-skeleton-with-glow-squid-hat
+https://minecraft-heads.com/custom-heads/monsters/60558-sculk-skeleton-skull
+https://minecraft-heads.com/custom-heads/humanoid/60471-skeleton-tier-1 (red)
+https://minecraft-heads.com/custom-heads/humanoid/58070-samurai-skeleton
 
 Wither Skeleton
 https://minecraft-heads.com/custom-heads/humanoid/47961-superior-wither-helmet
 https://minecraft-heads.com/custom-heads/monsters/53877-soul-sand-creeper
+https://minecraft-heads.com/custom-heads/humanoid/60467-elite-wither-skeleton
+https://minecraft-heads.com/custom-heads/humanoid/60466-wither-skeleton-tier-1 (green)
+https://minecraft-heads.com/custom-heads/humanoid/60465-wither-skeleton-tier-2 (green + cage)
 
 Stray
 https://minecraft-heads.com/custom-heads/animals/55412-stray-pig
@@ -36,3 +44,5 @@ https://minecraft-heads.com/custom-heads/humanoid/23877-dead-illusioner
 https://minecraft-heads.com/custom-heads/humanoid/23866-drowned-witch
 https://minecraft-heads.com/custom-heads/monsters/52765-sculk-monster
 https://minecraft-heads.com/custom-heads/humanoid/54256-robot
+https://minecraft-heads.com/custom-heads/humanoid/55895-corrupted-skeleton?
+https://minecraft-heads.com/custom-heads/humanoid/50077-pilot-skeleton?

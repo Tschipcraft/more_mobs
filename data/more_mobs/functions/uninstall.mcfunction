@@ -1,24 +1,26 @@
 ## by Tschipcraft
 
-scoreboard objectives remove ran1
-scoreboard objectives remove ran2
-scoreboard objectives remove ran3
-scoreboard objectives remove ran4
-scoreboard objectives remove ran5
-scoreboard objectives remove random
+scoreboard objectives remove ts.mm.ran1
+scoreboard objectives remove ts.mm.ran2
+scoreboard objectives remove ts.mm.ran3
+scoreboard objectives remove ts.mm.ran4
+scoreboard objectives remove ts.mm.ran5
+scoreboard objectives remove ts.mm.random
 
-scoreboard objectives remove mm_install
-scoreboard objectives remove menu
-scoreboard objectives remove spa_a_test
+scoreboard objectives remove ts.mm.nt_test
 
-scoreboard objectives remove mm_version
+scoreboard objectives remove ts.mm.welcome
+scoreboard objectives remove tschipcraft.menu
+scoreboard objectives remove ts.sa.test
+
+scoreboard objectives remove ts.mm.version
 scoreboard objectives remove tvc_ignore
 
 # Settings
-scoreboard objectives add mm_settings dummy
+scoreboard objectives remove ts.mm.settings
 
 # Team
-team remove mm_nonametag
+team remove ts.mm.nonametag
 
 # Finalize
 datapack disable "file/more_mobs"

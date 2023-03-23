@@ -1,4 +1,4 @@
 ##by Tschipcraft
 
-scoreboard players set mm_enable_heads mm_settings 0
+scoreboard players set $enable_heads ts.mm.settings 0
 function more_mobs:settings/core

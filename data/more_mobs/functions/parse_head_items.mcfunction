@@ -263,4 +263,4 @@ data merge entity @s[nbt={Item:{tag:{SkullOwner:{Id:[I;-1091370456,-280017173,-1
 
 
 # Finalize
-tag @s add mm_parsed_item
+tag @s add ts.mm.parsed_item
