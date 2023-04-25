@@ -28,7 +28,7 @@ Zombies, Husks, Drowned, Skeletons, Strays, Wither Skeletons, Mooshrooms, Piglin
 
 To exclude a specific entity, give it the tag `exclude`.
 
-[-> For more information, take a look at the wiki <-](https://github.com/Tschipcraft/more_mobs/wiki).
+[-> For more information, take a look at the wiki <-](https://github.com/Tschipcraft/more_mobs/wiki)
 
 
 ## Installation

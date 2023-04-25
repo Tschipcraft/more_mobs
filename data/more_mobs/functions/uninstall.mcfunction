@@ -11,7 +11,6 @@ scoreboard objectives remove ts.mm.nt_test
 
 scoreboard objectives remove ts.mm.welcome
 scoreboard objectives remove tschipcraft.menu
-scoreboard objectives remove ts.sa.test
 
 scoreboard objectives remove ts.mm.version
 scoreboard objectives remove tvc_ignore

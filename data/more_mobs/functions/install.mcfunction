@@ -16,7 +16,6 @@ scoreboard objectives add ts.mm.nt_test dummy
 
 scoreboard objectives add ts.mm.welcome dummy
 scoreboard objectives add tschipcraft.menu trigger
-scoreboard objectives add ts.sa.test dummy
 
 scoreboard objectives add tvc_ignore dummy
 
@@ -33,6 +32,5 @@ team add ts.mm.nonametag
 team modify ts.mm.nonametag nametagVisibility never
 
 # Schedule
-schedule function more_mobs:ts.sa.test 1s
 #schedule clear more_mobs:effect_loop
 schedule function more_mobs:effect_loop_trigger 1s

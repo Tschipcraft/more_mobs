@@ -2,9 +2,7 @@
 
 
 ## Mobs
-# This is currently not compatible with Spawn Animations
-execute unless score $global ts.mm.version matches 0 if score $global ts.sa.test matches 0 as @e[type=#more_mobs:parsable,tag=!ts.mm.parsed,tag=!exclude,tag=!smithed.entity,tag=!smithed.block,tag=!global.ignore] at @s run function more_mobs:general/parse
-execute unless score $global ts.mm.version matches 0 if score $global ts.sa.test matches 1 as @e[type=#more_mobs:parsable,tag=!ts.mm.parsed,tag=ts.sa.verify,tag=!exclude,tag=!smithed.entity,tag=!smithed.block,tag=!global.ignore] at @s positioned ~ ~2.3 ~ run function more_mobs:general/parse
+execute as @e[type=#more_mobs:parsable,tag=!ts.mm.parsed,tag=!exclude,tag=!smithed.entity,tag=!smithed.block,tag=!global.ignore] at @s run function more_mobs:general/parse
 
 ## Extension for 1.16 and above
 function more_mobs:general/main_extension_116
