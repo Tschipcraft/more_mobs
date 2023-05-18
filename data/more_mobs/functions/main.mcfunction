@@ -2,7 +2,7 @@
 
 
 ## Mobs
-execute as @e[type=#more_mobs:parsable,tag=!ts.mm.parsed,tag=!exclude,tag=!smithed.entity,tag=!smithed.block,tag=!global.ignore] at @s run function more_mobs:general/parse
+execute as @e[type=#more_mobs:parsable,tag=!ts.mm.parsed,tag=!ts.mm.exclude,tag=!smithed.entity,tag=!smithed.block,tag=!global.ignore] at @s run function more_mobs:general/parse
 
 ## Extension for 1.16 and above
 function more_mobs:general/main_extension_116
@@ -10,7 +10,7 @@ function more_mobs:general/main_extension_116
 
 ## Upside Down Spiders
 # Spider
-execute if score $upsided_s ts.mm.settings matches 1 as @e[type=#more_mobs:spider,tag=!exclude,tag=!smithed.entity,tag=!smithed.block,tag=!global.ignore] at @s run function more_mobs:spider/main
+execute if score $upsided_s ts.mm.settings matches 1 as @e[type=#more_mobs:spider,tag=!ts.mm.exclude,tag=!smithed.entity,tag=!smithed.block,tag=!global.ignore] at @s run function more_mobs:spider/main
 
 
 ## Parse items
