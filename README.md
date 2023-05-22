@@ -14,7 +14,7 @@
 <details>
 <summary>YouTube showcase</summary>
 <a href="http://www.youtube.com/watch?v=sruFdJCgIDo">
-<img alt="Dynamic Lights thumbnail" width=50% src="https://tschipcraft.ddns.net/mod_resources/youtube_preview.php?id=sruFdJCgIDo" title="Watch on YouTube">
+<img alt="More Mobs thumbnail" width=50% src="https://tschipcraft.ddns.net/mod_resources/youtube_preview.php?id=sruFdJCgIDo" title="Watch on YouTube">
 </a>
 </details>
 

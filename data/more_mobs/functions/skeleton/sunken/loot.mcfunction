@@ -1,3 +1,3 @@
 ##by Tschipcraft
 
-loot replace entity @s weapon.offhand loot minecraft:gameplay/fishing/junk
+execute if score $loot ts.mm.settings matches 1 run loot replace entity @s weapon.offhand loot minecraft:gameplay/fishing/junk
