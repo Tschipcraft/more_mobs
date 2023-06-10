@@ -37,6 +37,7 @@ execute unless score $disable_piglins ts.mm.settings matches 0..1 run scoreboard
 team remove ts.mm.nonametag
 team add ts.mm.nonametag
 team modify ts.mm.nonametag nametagVisibility never
+team join ts.mm.nonametag @e[type=#more_mobs:spider,tag=ts.mm.s_onceiling]
 
 # Schedule
 schedule function more_mobs:effect_loop_trigger 1s
