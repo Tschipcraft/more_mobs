@@ -1,8 +1,7 @@
 ## by Tschipcraft
 
-
 ## Mobs
-execute as @e[type=#more_mobs:parsable,tag=!ts.mm.parsed,tag=!ts.mm.exclude,tag=!smithed.entity,tag=!smithed.block,tag=!global.ignore,tag=!global.ignore.kill] at @s run function more_mobs:general/parse
+execute if score $global ts.mm.version matches 1632.. as @e[type=#more_mobs:parsable,tag=!ts.mm.parsed,tag=!ts.mm.exclude,tag=!smithed.entity,tag=!smithed.block,tag=!global.ignore,tag=!global.ignore.kill] at @s run function more_mobs:general/parse
 
 ## Extension for 1.16 and above
 function more_mobs:general/main_extension_116
@@ -23,12 +22,3 @@ execute as @a[scores={tschipcraft.menu=1..}] run scoreboard players set @s ts.mm
 execute as @a[scores={ts.mm.welcome=0}] run function more_mobs:messages/welcome
 
 execute as @a[scores={tschipcraft.menu=1..}] run schedule function more_mobs:menu_reset 1t
-
-
-#scoreboard players enable @a tschipcraft.menu
-#scoreboard players add @a ts.mm.install 0
-#execute as @a[scores={tschipcraft.menu=1..60,ts.mm.install=0}] run function more_mobs:messages/welcome
-
-#execute as @a[scores={tschipcraft.menu=61..}] run scoreboard players set @s ts.mm.install 0
-#scoreboard players reset @a[scores={tschipcraft.menu=122..}] tschipcraft.menu
-#scoreboard players add @a[scores={tschipcraft.menu=1..}] tschipcraft.menu 1

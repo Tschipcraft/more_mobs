@@ -1,6 +1,6 @@
 ## by Tschipcraft
 
-# Extension for Rare Mobs Data Pack
+# Exclusion for already filled head slots
 execute as @s[tag=!ts.mm.parsed] as @s[nbt={ArmorItems:[{},{},{},{Count:1b}]}] run tag @s add ts.mm.parsed
 
 # Skeleton

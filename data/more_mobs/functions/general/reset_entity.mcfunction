@@ -2,7 +2,7 @@
 # Resets entity
 
 # Remove custom head
-item replace entity @s armor.head with minecraft:air
+data merge entity @s {ArmorItems:[{},{},{},{id:"minecraft:air",Count:0b}]}
 
 # Reset tags
 tag @s remove ts.mm.parsed
@@ -56,7 +56,7 @@ tag @s remove ts.mm.burned
 tag @s remove ts.mm.burning
 tag @s remove ts.mm.crimson
 tag @s remove ts.mm.demon
-tag @s remove ts.mm.googles
+tag @s remove ts.mm.goggles
 tag @s remove ts.mm.king
 tag @s remove ts.mm.magma_1
 tag @s remove ts.mm.magma_2

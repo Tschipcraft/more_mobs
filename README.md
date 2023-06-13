@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="/pack.png" width="64" height="64"><br/>
+  <img src="pack.png" width="64" height="64"><br/>
   More Mobs
 </h1>
 <p align="center">
@@ -9,7 +9,7 @@
   <a href="https://github.com/Tschipcraft/more_mobs/releases/latest"><img src="https://img.shields.io/github/downloads/Tschipcraft/more_mobs/total?logo=github&colorA=1b1b29&colorB=bd5216&style=for-the-badge"></a>
 </p>
 
-> A data pack for 1.14x-1.19x
+> A data pack for 1.14x-1.20x
 
 <details>
 <summary>YouTube showcase</summary>
@@ -26,9 +26,7 @@ No Resource pack needed!
 **Supported Entities:**
 Zombies, Husks, Drowned, Skeletons, Strays, Wither Skeletons, Mooshrooms, Piglins, Pillagers, Evokers and Vindicators
 
-To exclude a specific entity, give it the tag `exclude`.
-
-[-> For more information, take a look at the wiki <-](https://github.com/Tschipcraft/more_mobs/wiki)
+[-> For all added heads, available settings and customization, take a look at the wiki <-](https://github.com/Tschipcraft/more_mobs/wiki)
 
 
 ## Installation
@@ -39,11 +37,10 @@ Also available on Modrinth and CurseForge!
 
 <a href="https://modrinth.com/datapack/more-mobs">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/modrinth/art/blob/main/Branding/Badge/badge-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/modrinth/art/blob/main/Branding/Badge/badge-light.svg">
-  <img alt="Download on Modrinth" src="https://github.com/modrinth/art/blob/main/Branding/Badge/badge-dark.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/modrinth/art/main/Branding/Badge/badge-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/modrinth/art/main/Branding/Badge/badge-light.svg">
+  <img alt="Download on Modrinth" src="https://raw.githubusercontent.com/modrinth/art/main/Branding/Badge/badge-dark.svg">
 </picture>
-</a>
 </a>
 <a href="https://www.curseforge.com/minecraft/texture-packs/more-mobs">
 <img alt="Download on CurseForge" src="https://i.imgur.com/zcIcoGb.png">
@@ -52,4 +49,4 @@ Also available on Modrinth and CurseForge!
 
 ## Manage
 
-To check for updates use `/trigger menu` and hit the Check for Updates button. There is also a **Reset** and an **Uninstall** button.
+To check for updates use `/trigger tschipcraft.menu` and hit the Check for Updates button. There is also a **Reset** and an **Uninstall** button.

@@ -3,7 +3,7 @@
 # Reset custom player heads
 function more_mobs:reset_heads
 # Reset spiders
-execute as @s[type=#more_mobs:spider,tag=ts.mm.s_onceiling] run function more_mobs:spider/inair
+execute as @e[type=#more_mobs:spider,tag=ts.mm.s_onceiling] run function more_mobs:spider/inair
 
 scoreboard objectives remove ts.mm.ran1
 scoreboard objectives remove ts.mm.ran2
@@ -29,6 +29,6 @@ team remove ts.mm.nonametag
 # Finalize
 datapack disable "file/more_mobs"
 datapack disable "file/more_mobs.zip"
-datapack disable "file/more_mobs-v1.4-mc1.20-datapack.zip"
+datapack disable "file/${file_name}"
 
-say More Mobs by Tschipcraft successfully uninstalled! [Initiated by @s]
+say More Mobs ${version} by Tschipcraft successfully uninstalled! [Initiated by @s]
