@@ -4,12 +4,12 @@
 execute if score $global ts.mm.version matches 1632.. as @e[type=#more_mobs:parsable,tag=!ts.mm.parsed,tag=!ts.mm.exclude,tag=!smithed.entity,tag=!smithed.block,tag=!global.ignore,tag=!global.ignore.kill] at @s run function more_mobs:general/parse
 
 ## Extension for 1.16 and above
-function more_mobs:general/main_extension_116
+execute if score $global ts.mm.version matches 1632.. run function more_mobs:general/main_extension_116
 
 
 ## Upside Down Spiders
 # Spider
-execute if score $upsided_s ts.mm.settings matches 1 as @e[type=#more_mobs:spider,tag=!ts.mm.exclude,tag=!smithed.entity,tag=!smithed.block,tag=!global.ignore,tag=!global.ignore.kill] at @s run function more_mobs:spider/main
+execute if score $global ts.mm.version matches 1632.. if score $upsided_s ts.mm.settings matches 1..2 as @e[type=#more_mobs:spider,tag=!ts.mm.exclude,tag=!smithed.entity,tag=!smithed.block,tag=!global.ignore,tag=!global.ignore.kill] at @s run function more_mobs:spider/main
 
 
 ## Parse items

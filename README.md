@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="pack.png" width="64" height="64"><br/>
+  <img src="pack.png" width="80" height="80" style="image-rendering: pixelated"><br/>
   More Mobs
 </h1>
 <p align="center">
@@ -20,7 +20,7 @@
 
 ## Features
 
-Mobs have new variants through custom heads or through hidden vanilla mobs! This pack uses **over 85 custom player heads** that can be obtained and placed in your world.
+Mobs have new variants through custom heads or through hidden vanilla mobs! This pack uses **over 85 custom player heads** which can be obtained and placed in your world.
 No Resource pack needed!
 
 **Supported Entities:**
@@ -37,13 +37,17 @@ Also available on Modrinth and CurseForge!
 
 <a href="https://modrinth.com/datapack/more-mobs">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/modrinth/art/main/Branding/Badge/badge-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/modrinth/art/main/Branding/Badge/badge-light.svg">
-  <img alt="Download on Modrinth" src="https://raw.githubusercontent.com/modrinth/art/main/Branding/Badge/badge-dark.svg">
+  <source height="72px" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Tschipcraft/badges/main/assets/modrinth-badge-dark.svg">
+  <source height="72px" media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Tschipcraft/badges/main/assets/modrinth-badge-light.svg">
+  <img height="72px" alt="Download on Modrinth" src="https://raw.githubusercontent.com/modrinth/art/main/Branding/Badge/badge-dark.svg">
 </picture>
 </a>
 <a href="https://www.curseforge.com/minecraft/texture-packs/more-mobs">
-<img alt="Download on CurseForge" src="https://i.imgur.com/zcIcoGb.png">
+<picture>
+  <source height="72px" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Tschipcraft/badges/main/assets/curseforge-badge-dark.svg">
+  <source height="72px" media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Tschipcraft/badges/main/assets/curseforge-badge-light.svg">
+  <img height="72px" alt="Download on CurseForge" src="https://raw.githubusercontent.com/Tschipcraft/badges/main/assets/curseforge-badge-dark.svg">
+</picture>
 </a>
 
 
