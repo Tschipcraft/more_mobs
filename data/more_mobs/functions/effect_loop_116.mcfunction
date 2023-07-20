@@ -7,4 +7,5 @@ execute as @s[type=minecraft:wither_skeleton,tag=ts.mm.ethereal] at @s run parti
 execute as @s[type=minecraft:wither_skeleton,tag=ts.mm.crimson] at @s run particle minecraft:crimson_spore ~ ~1 ~ 0 0.5 0 0.1 7
 execute as @s[tag=ts.mm.warped] at @s run particle minecraft:warped_spore ~ ~1 ~ 0 0.5 0 0.1 7
 
+## For 1.19 and above
 function more_mobs:effect_loop_119
