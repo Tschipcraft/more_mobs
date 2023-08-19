@@ -1,7 +1,7 @@
 ## by Tschipcraft
 # https://minecraft-heads.com/custom-heads/humanoid/38049-skeleton-pirate
 
-execute if score $loot ts.mm.settings matches 1 run data modify entity @s HandItems[1] merge value {id:"minecraft:stone_sword",Count:1b}
+execute if score $loot ts.mm.settings matches 1..2 run data modify entity @s HandItems[1] merge value {id:"minecraft:stone_sword",Count:1b}
 function more_mobs:skeleton/pirate_loot
 
 # 1.15 or below

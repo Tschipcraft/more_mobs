@@ -1,5 +1,5 @@
 ##by Tschipcraft
-# Resets entity
+# Resets entity (@s)
 
 # Remove custom head
 data merge entity @s {ArmorItems:[{},{},{},{id:"minecraft:air",Count:0b}]}
