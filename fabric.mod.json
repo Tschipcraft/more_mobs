@@ -10,7 +10,7 @@
     ]
   },
   "id": "moremobs",
-  "version": "1.5+mod",
+  "version": "${version}+mod",
   "name": "More Mobs",
   "description": "Humanoid mobs get new variants through custom heads or through unused vanilla mobs! This pack uses §lover 85§r custom player heads which can be obtained and placed in your world.\nNo Resource pack needed!\n§lSupported Entities:§r Zombies, Husks, Drowned, Skeletons, Strays, Wither Skeletons, Mooshrooms, Piglins, Pillagers, Evokers and Vindicators\nExecute the command §o/function §omore_mobs:settings§r for a world-specific settings menu and/or install MidnightLib for global settings accross all worlds.",
   "license": "Custom",
@@ -19,7 +19,7 @@
     "Tschipcraft"
   ],
   "contact": {
-    "homepage": "https://linktr.ee/tschipcraft",
+    "homepage": "https://tschipcraft.ddns.net/more_mobs.html",
     "sources": "https://github.com/Tschipcraft/more_mobs",
     "issues": "https://github.com/Tschipcraft/more_mobs/issues"
   },

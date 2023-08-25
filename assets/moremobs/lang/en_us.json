@@ -11,7 +11,7 @@
   "moremobs.midnightconfig.empty4": "",
 
   "moremobs.midnightconfig.enable_heads": "Enable Custom Heads",
-  "moremobs.midnightconfig.enable_heads.tooltip": "Default: §aYes§f",
+  "moremobs.midnightconfig.enable_heads.tooltip": "Default: §aYes§f\nIf enabled, custom player heads will be given to supported humanoid mobs.",
   "moremobs.midnightconfig.enable_head_drops": " └ Drop Custom Heads",
   "moremobs.midnightconfig.enable_head_drops.tooltip": "Default: §aYes§f\nCustom Heads need to be enabled for this setting to have an effect",
   "moremobs.midnightconfig.enable_additional_loot": "Add additional loot to some mobs",

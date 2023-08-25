@@ -4,12 +4,12 @@
 </h1>
 <p align="center">
   <a href="https://github.com/Tschipcraft/more_mobs/stargazers"><img src="https://img.shields.io/github/stars/Tschipcraft/more_mobs?colorA=1b1b29&colorB=bd5216&style=for-the-badge"></a>
-  <a href="https://www.curseforge.com/minecraft/texture-packs/more-mobs"><img src="https://cf.way2muchnoise.eu/full_811791_downloads.svg?badge_style=for_the_badge"></a>
+  <a href="https://www.curseforge.com/minecraft/texture-packs/more-mobs"><img src="https://img.shields.io/curseforge/dt/811791?logo=curseforge&label=CurseForge&colorA=1b1b29&colorB=bd5216&style=for-the-badge"></a>
   <a href="https://modrinth.com/datapack/more-mobs"><img src="https://img.shields.io/modrinth/dt/more-mobs?label=Modrinth&colorA=1b1b29&colorB=bd5216&style=for-the-badge&logo=modrinth"></a>
   <a href="https://github.com/Tschipcraft/more_mobs/releases/latest"><img src="https://img.shields.io/github/downloads/Tschipcraft/more_mobs/total?logo=github&colorA=1b1b29&colorB=bd5216&style=for-the-badge"></a>
 </p>
 
-> A data pack for 1.14x-1.20x
+> A data pack for Minecraft 1.14x-1.20x
 
 <details>
 <summary>YouTube showcase</summary>
@@ -26,7 +26,7 @@ No Resource pack needed!
 **Supported Entities:**
 Zombies, Husks, Drowned, Skeletons, Strays, Wither Skeletons, Mooshrooms, Piglins, Pillagers, Evokers and Vindicators
 
-[-> For all added heads, available settings and customization, take a look at the wiki <-](https://github.com/Tschipcraft/more_mobs/wiki)
+[➜ For all added heads, available settings and customization, take a look at the wiki](https://github.com/Tschipcraft/more_mobs/wiki)
 
 
 ## Installation

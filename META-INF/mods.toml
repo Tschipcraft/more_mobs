@@ -6,7 +6,7 @@ logoBlur=false
 
 [[mods]]
 modId="moremobs"
-version="1.5+mod"
+version="${version}+mod"
 displayName="More Mobs"
 description='''Humanoid mobs get new variants through custom heads or through unused vanilla mobs! This pack uses §lover 85 custom player heads§r which can be obtained and placed in your world.
 No Resource pack needed!
@@ -16,7 +16,7 @@ No Resource pack needed!
 Execute the command §o/function §omore_mobs:settings§r for a world-specific settings menu and/or install MidnightLib for global settings accross all worlds.
 '''
 authors="Tschipcraft"
-displayURL="https://linktr.ee/tschipcraft"
+displayURL="https://tschipcraft.ddns.net/more_mobs.html"
 issueTrackerURL="https://github.com/Tschipcraft/more_mobs/issues"
 updateJSONURL="https://api.modrinth.com/updates/HJR6V0I2/forge_updates.json"
 displayTest="IGNORE_SERVER_VERSION"
