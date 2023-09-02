@@ -1,7 +1,6 @@
 package net.tschipcraft.moremobs.fabric;
 
 import com.mojang.brigadier.exceptions.CommandSyntaxException;
-import eu.midnightdust.lib.config.MidnightConfig;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.command.ServerCommandSource;
 
@@ -14,7 +13,8 @@ public class sendConfig {
         } else if (Config.enable_heads == Config.bool.NO) {
             sendCommand("scoreboard players set $enable_heads ts.mm.settings -1", server);
         } else {
-            sendCommand("execute unless score $enable_heads ts.mm.settings matches 0..1 run scoreboard players set $enable_heads ts.mm.settings 1", server);
+            sendCommand("execute if score $enable_heads ts.mm.settings matches -1 run scoreboard players set $enable_heads ts.mm.settings 0", server);
+            sendCommand("execute if score $enable_heads ts.mm.settings matches 2 run scoreboard players set $enable_heads ts.mm.settings 1", server);
         }
 
         if (Config.enable_head_drops == Config.bool.YES) {
@@ -22,7 +22,8 @@ public class sendConfig {
         } else if (Config.enable_head_drops == Config.bool.NO) {
             sendCommand("scoreboard players set $head_drops ts.mm.settings -1", server);
         } else {
-            sendCommand("execute unless score $head_drops ts.mm.settings matches 0..1 run scoreboard players set $head_drops ts.mm.settings 0", server);
+            sendCommand("execute if score $head_drops ts.mm.settings matches -1 run scoreboard players set $head_drops ts.mm.settings 0", server);
+            sendCommand("execute if score $head_drops ts.mm.settings matches 2 run scoreboard players set $head_drops ts.mm.settings 1", server);
         }
 
         if (Config.enable_additional_loot == Config.bool.YES) {
@@ -30,7 +31,8 @@ public class sendConfig {
         } else if (Config.enable_additional_loot == Config.bool.NO) {
             sendCommand("scoreboard players set $loot ts.mm.settings -1", server);
         } else {
-            sendCommand("execute unless score $loot ts.mm.settings matches 0..1 run scoreboard players set $loot ts.mm.settings 1", server);
+            sendCommand("execute if score $loot ts.mm.settings matches -1 run scoreboard players set $loot ts.mm.settings 0", server);
+            sendCommand("execute if score $loot ts.mm.settings matches 2 run scoreboard players set $loot ts.mm.settings 1", server);
         }
 
         if (Config.enable_additional_valuable_loot == Config.bool.YES) {
@@ -38,7 +40,8 @@ public class sendConfig {
         } else if (Config.enable_additional_valuable_loot == Config.bool.NO) {
             sendCommand("scoreboard players set $val_loot ts.mm.settings -1", server);
         } else {
-            sendCommand("execute unless score $val_loot ts.mm.settings matches 0..1 run scoreboard players set $val_loot ts.mm.settings 1", server);
+            sendCommand("execute if score $val_loot ts.mm.settings matches -1 run scoreboard players set $val_loot ts.mm.settings 0", server);
+            sendCommand("execute if score $val_loot ts.mm.settings matches 2 run scoreboard players set $val_loot ts.mm.settings 1", server);
         }
 
         if (Config.enable_upside_down_spiders == Config.bool.YES) {
@@ -46,7 +49,8 @@ public class sendConfig {
         } else if (Config.enable_upside_down_spiders == Config.bool.NO) {
             sendCommand("scoreboard players set $upsided_s ts.mm.settings -1", server);
         } else {
-            sendCommand("execute unless score $upsided_s ts.mm.settings matches 0..1 run scoreboard players set $upsided_s ts.mm.settings 1", server);
+            sendCommand("execute if score $upsided_s ts.mm.settings matches -1 run scoreboard players set $upsided_s ts.mm.settings 0", server);
+            sendCommand("execute if score $upsided_s ts.mm.settings matches 2 run scoreboard players set $upsided_s ts.mm.settings 1", server);
         }
 
         if (Config.enable_let_undead_mobs_burn_in_daylight == Config.bool.YES) {
@@ -54,7 +58,8 @@ public class sendConfig {
         } else if (Config.enable_let_undead_mobs_burn_in_daylight == Config.bool.NO) {
             sendCommand("scoreboard players set $mobs_burn ts.mm.settings -1", server);
         } else {
-            sendCommand("execute unless score $mobs_burn ts.mm.settings matches 0..1 run scoreboard players set $mobs_burn ts.mm.settings 1", server);
+            sendCommand("execute if score $mobs_burn ts.mm.settings matches -1 run scoreboard players set $mobs_burn ts.mm.settings 0", server);
+            sendCommand("execute if score $mobs_burn ts.mm.settings matches 2 run scoreboard players set $mobs_burn ts.mm.settings 1", server);
         }
     }
 

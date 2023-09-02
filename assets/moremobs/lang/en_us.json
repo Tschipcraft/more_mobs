@@ -21,7 +21,7 @@
   "moremobs.midnightconfig.enable_upside_down_spiders": "Enable upside down spiders",
   "moremobs.midnightconfig.enable_upside_down_spiders.tooltip": "Default: §aYes§f\nIf enabled, spiders will turn upside down when hanging on ceilings",
   "moremobs.midnightconfig.enable_let_undead_mobs_burn_in_daylight": "Let mobs with custom heads burn in daylight",
-  "moremobs.midnightconfig.enable_let_undead_mobs_burn_in_daylight.tooltip": "Default: §aYes§f\nIf enabled, undead mobs with custom heads will burn in the daylight\nMinecraft 1.19.4+",
+  "moremobs.midnightconfig.enable_let_undead_mobs_burn_in_daylight.tooltip": "Default: §aYes§f\nIf enabled, undead mobs with custom heads will burn in the daylight\nOnly for Minecraft 1.19.4+",
 
   "moremobs.midnightconfig.enum.bool.WORLD": "§bWorld-Specific",
   "moremobs.midnightconfig.enum.bool.YES": "§a[✔] Yes",

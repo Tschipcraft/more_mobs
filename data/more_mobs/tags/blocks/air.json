@@ -1,10 +1,10 @@
 {
-	"replace": false,
-	"values": [
-		"minecraft:air",
-		"minecraft:cave_air",
-		"minecraft:void_air",
-		"minecraft:moving_piston",
-		"minecraft:structure_void"
-	]
+  "replace": false,
+  "values": [
+    "minecraft:air",
+    "minecraft:cave_air",
+    "minecraft:void_air",
+    "minecraft:moving_piston",
+    "minecraft:structure_void"
+  ]
 }
