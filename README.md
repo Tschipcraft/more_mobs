@@ -9,7 +9,7 @@
   <a href="https://github.com/Tschipcraft/more_mobs/releases/latest"><img src="https://img.shields.io/github/downloads/Tschipcraft/more_mobs/total?logo=github&colorA=1b1b29&colorB=bd5216&style=for-the-badge"></a>
 </p>
 
-> A data pack for Minecraft 1.14x-1.20x
+> A data pack/mod for Minecraft 1.14x-1.20x
 
 <details>
 <summary>YouTube showcase</summary>
@@ -21,10 +21,11 @@
 ## Features
 
 Mobs have new variants through custom heads or through hidden vanilla mobs! This pack uses **over 85 custom player heads** which can be obtained and placed in your world.
-No Resource pack needed!
 
 **Supported Entities:**
 Zombies, Husks, Drowned, Skeletons, Strays, Wither Skeletons, Mooshrooms, Piglins, Pillagers, Evokers and Vindicators
+
+This data pack/mod is completely server-side, but can also be installed on the client for singleplayer worlds! No resource pack needed!
 
 [➜ For all added heads, available settings and customization, take a look at the wiki](https://github.com/Tschipcraft/more_mobs/wiki)
 
@@ -32,6 +33,8 @@ Zombies, Husks, Drowned, Skeletons, Strays, Wither Skeletons, Mooshrooms, Piglin
 ## Installation
 
 Download the latest release from [here](https://github.com/Tschipcraft/more_mobs/releases/latest) and put the data pack .zip file into the `datapacks` folder of your Minecraft world.
+
+This data pack is also available as a mod with an additional global settings menu when installed alongside [MidnightLib](https://modrinth.com/mod/midnightlib). Download the latest release and put the mod .jar file into your `.minecraft/mods` folder.
 
 Also available on Modrinth and CurseForge!
 
@@ -53,4 +56,4 @@ Also available on Modrinth and CurseForge!
 
 ## Manage
 
-To check for updates use `/trigger tschipcraft.menu` and hit the Check for Updates button. There is also a **Reset** and an **Uninstall** button.
+To check for updates execute `/trigger tschipcraft.menu` or `/function #tschipcraft:menu` and hit the Check for Updates button. There is also a **Reset** and an **Uninstall** button.
