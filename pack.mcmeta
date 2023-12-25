@@ -1,6 +1,8 @@
 {
+  "id": "moremobs",
   "pack": {
     "pack_format": 15,
+    "supported_formats": [7,26],
     "description": "More Mobs by Tschipcraft // Minecraft 1.14x-1.20x"
   }
 }

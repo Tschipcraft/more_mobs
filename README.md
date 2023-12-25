@@ -56,4 +56,4 @@ Also available on Modrinth and CurseForge!
 
 ## Manage
 
-To check for updates execute `/trigger tschipcraft.menu` or `/function #tschipcraft:menu` and hit the Check for Updates button. There is also a **Reset** and an **Uninstall** button.
+To open the ingame menu, execute `/trigger tschipcraft.menu` or `/function #tschipcraft:menu`. There is a **Reset** and an **Uninstall** button.

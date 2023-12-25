@@ -1,4 +1,5 @@
 {
+  "//comment": "Some blocks like minecraft:grass do not have to appear here, since they occur on the ground only anyways",
   "replace": false,
   "values": [
     "minecraft:air",
@@ -33,7 +34,6 @@
     "minecraft:nether_wart",
     "minecraft:brown_mushroom",
     "minecraft:red_mushroom",
-    "minecraft:grass",
     "minecraft:tall_grass",
     "minecraft:sunflower",
     "minecraft:lilac",
