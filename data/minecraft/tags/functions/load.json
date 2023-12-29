@@ -1,6 +1,6 @@
 {
   "values": [
-    "more_mobs:install_trigger",
-    "more_mobs:version_checker"
+    "more_mobs:version_checker",
+    "more_mobs:install_trigger"
   ]
 }

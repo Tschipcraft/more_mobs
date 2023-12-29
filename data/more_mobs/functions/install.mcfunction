@@ -35,7 +35,7 @@ execute unless score $mobs_burn ts.mm.settings matches -1..2 run scoreboard play
 execute unless score $disable_piglins ts.mm.settings matches 0..1 run scoreboard players set $disable_piglins ts.mm.settings 0
 
 # Team
-team remove ts.mm.nonametag
+#team remove ts.mm.nonametag why did i do this?
 team add ts.mm.nonametag
 team modify ts.mm.nonametag nametagVisibility never
 team join ts.mm.nonametag @e[type=#more_mobs:spider,tag=ts.mm.s_onceiling]

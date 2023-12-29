@@ -29,6 +29,7 @@ team remove ts.mm.nonametag
 # Finalize
 datapack disable "file/more_mobs"
 datapack disable "file/more_mobs.zip"
+datapack disable "mod:moremobs"
 datapack disable "file/${file_name}"
 
 say ⏻ More Mobs ${version} by Tschipcraft successfully uninstalled! [Initiated by @s]
