@@ -40,7 +40,7 @@ public class Init {
 				@SubscribeEvent
 				public void onServerStarted(ServerStartedEvent event) {
 					if (ModList.get().isLoaded("midnightlib")) {
-						LOGGER.info("[More Mobs] Sending global config to server...");
+						LOGGER.info("[More Mobs] Sending global config to world...");
 						sendConfig.sendConfig(event.getServer());
 					}
 				}
@@ -80,7 +80,7 @@ public class Init {
 				@SubscribeEvent
 				public void onServerStarted(ServerStartedEvent event) {
 					if (ModList.get().isLoaded("midnightlib")) {
-						LOGGER.info("[More Mobs] Sending global config to server...");
+						LOGGER.info("[More Mobs] Sending global config to world...");
 						sendConfig.sendConfig(event.getServer());
 					}
 				}

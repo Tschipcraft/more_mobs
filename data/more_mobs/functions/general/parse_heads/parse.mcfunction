@@ -80,8 +80,6 @@ execute as @s[type=minecraft:drowned,tag=!ts.mm.parsed,scores={ts.mm.random=16..
 execute as @s[type=minecraft:drowned,tag=!ts.mm.parsed,scores={ts.mm.random=18..19}] run function more_mobs:drowned/captain_1
 execute as @s[type=minecraft:drowned,tag=!ts.mm.parsed,scores={ts.mm.random=20..}] run function more_mobs:drowned/decayed
 
-## Experimental
-
 # Evoker
 execute as @s[type=minecraft:evoker,tag=!ts.mm.parsed,scores={ts.mm.random=9..12}] run function more_mobs:evoker/geomancer
 execute as @s[type=minecraft:evoker,tag=!ts.mm.parsed,scores={ts.mm.random=13..14}] run function more_mobs:evoker/dead
@@ -96,7 +94,7 @@ execute as @s[type=minecraft:vindicator,tag=!ts.mm.parsed,scores={ts.mm.random=1
 execute as @s[type=minecraft:vindicator,tag=!ts.mm.parsed,scores={ts.mm.random=13..14}] run function more_mobs:vindicator/dead
 
 # Extensions for 1.16 or above
-function more_mobs:general/parse_116
+function more_mobs:general/parse_heads/parse_116
 
 # Finalize
 execute if score $head_drops ts.mm.settings matches 1..2 as @s[tag=ts.mm.custom_head] run data merge entity @s {ArmorDropChances:[0.085F,0.085F,0.085F,0.030F]}

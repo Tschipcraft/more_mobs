@@ -15,6 +15,7 @@ execute if score $global ts.mm.version matches 1933..3678 if score $upsided_s ts
 ## Parse items
 execute as @e[type=minecraft:item,tag=!ts.mm.parsed_item,tag=!smithed.entity,tag=!smithed.block,tag=!global.ignore] run function more_mobs:general/parse_head_items/check
 
+
 ## Menu
 scoreboard players enable @a tschipcraft.menu
 #scoreboard players add @a ts.mm.welcome 0 - don't show menu on first boot

@@ -29,7 +29,7 @@ public class Init implements ModInitializer {
 			ServerLifecycleEvents.SERVER_STARTED.register((server) -> {
 				if (FabricLoader.getInstance().isModLoaded("midnightlib")) {
 					// Use MidnightLib features
-					LOGGER.info("[More Mobs] Sending global config to server...");
+					LOGGER.info("[More Mobs] Sending global config to world...");
 					sendConfig.sendConfig(server);
 				}
 			});

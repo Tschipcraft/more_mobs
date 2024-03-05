@@ -1,5 +1,5 @@
 ## by Tschipcraft
-# Generates a random number
+# Generates a random number and stores it in the ts.mm.random score of the executing entity
 
 scoreboard players operation $generator ts.mm.ran1 *= $generator ts.mm.ran2
 scoreboard players operation $generator ts.mm.ran1 %= $generator ts.mm.ran3

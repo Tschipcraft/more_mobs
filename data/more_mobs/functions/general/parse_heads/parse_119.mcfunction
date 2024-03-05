@@ -1,6 +1,5 @@
 ## by Tschipcraft
-
-## Extension for 1.19 or above
+# Extension for mc 1.19 or above
 
 execute as @s[type=minecraft:skeleton,tag=!ts.mm.parsed,scores={ts.mm.random=0..7}] if block ~ ~-1 ~ minecraft:sculk run function more_mobs:skeleton/deepd_corpse
 execute as @s[type=minecraft:skeleton,tag=!ts.mm.parsed,scores={ts.mm.random=10..18}] if block ~ ~-1 ~ minecraft:sculk run function more_mobs:skeleton/deepd

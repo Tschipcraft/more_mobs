@@ -1,4 +1,5 @@
 ## by Tschipcraft
+# Called by effect_loop_trigger.mcfunction
 
 ## Effects
 
@@ -33,4 +34,4 @@ execute as @s[type=minecraft:skeleton,tag=ts.mm.drowned] at @s run particle mine
 execute as @s[type=minecraft:zombie,tag=ts.mm.drowned] at @s run particle minecraft:falling_water ~ ~1 ~ 0.2 0.4 0.2 0.1 2
 
 ## For 1.16 and above
-function more_mobs:effect_loop_116
+function more_mobs:general/effect_loop/exec_116

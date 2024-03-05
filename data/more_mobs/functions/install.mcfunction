@@ -25,14 +25,7 @@ scoreboard objectives add tvc_ignore dummy
 # Settings
 scoreboard objectives add ts.mm.settings dummy
 # Defaults
-execute unless score $enable_heads ts.mm.settings matches -1..2 run scoreboard players set $enable_heads ts.mm.settings 1
-execute unless score $head_drops ts.mm.settings matches -1..2 run scoreboard players set $head_drops ts.mm.settings 1
-execute unless score $upsided_s ts.mm.settings matches -1..2 run scoreboard players set $upsided_s ts.mm.settings 1
-execute unless score $loot ts.mm.settings matches -1..2 run scoreboard players set $loot ts.mm.settings 1
-execute unless score $val_loot ts.mm.settings matches -1..2 run scoreboard players set $val_loot ts.mm.settings 1
-execute unless score $mobs_burn ts.mm.settings matches -1..2 run scoreboard players set $mobs_burn ts.mm.settings 1
-# Hidden
-execute unless score $disable_piglins ts.mm.settings matches 0..1 run scoreboard players set $disable_piglins ts.mm.settings 0
+function more_mobs:settings/defaults
 
 # Team
 #team remove ts.mm.nonametag why did i do this?
@@ -41,4 +34,4 @@ team modify ts.mm.nonametag nametagVisibility never
 team join ts.mm.nonametag @e[type=#more_mobs:spider,tag=ts.mm.s_onceiling]
 
 # Schedule
-schedule function more_mobs:effect_loop_trigger 1s
+schedule function more_mobs:general/effect_loop_trigger 1s

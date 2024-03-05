@@ -1,12 +1,12 @@
 <h1 align="center">
-  <img src="pack.png" width="80" height="80" style="image-rendering: pixelated"><br/>
+  <img alt="Icon" src="pack.png" width="80" height="80" style="image-rendering: pixelated"><br/>
   More Mobs
 </h1>
 <p align="center">
-  <a href="https://github.com/Tschipcraft/more_mobs/stargazers"><img src="https://img.shields.io/github/stars/Tschipcraft/more_mobs?colorA=1b1b29&colorB=bd5216&style=for-the-badge"></a>
-  <a href="https://www.curseforge.com/minecraft/texture-packs/more-mobs"><img src="https://img.shields.io/curseforge/dt/811791?logo=curseforge&label=CurseForge&colorA=1b1b29&colorB=bd5216&style=for-the-badge"></a>
-  <a href="https://modrinth.com/datapack/more-mobs"><img src="https://img.shields.io/modrinth/dt/more-mobs?label=Modrinth&colorA=1b1b29&colorB=bd5216&style=for-the-badge&logo=modrinth"></a>
-  <a href="https://github.com/Tschipcraft/more_mobs/releases/latest"><img src="https://img.shields.io/github/downloads/Tschipcraft/more_mobs/total?logo=github&colorA=1b1b29&colorB=bd5216&style=for-the-badge"></a>
+  <a href="https://github.com/Tschipcraft/more_mobs/stargazers"><img alt="GitHub Stars" src="https://img.shields.io/github/stars/Tschipcraft/more_mobs?colorA=1b1b29&colorB=bd5216&style=for-the-badge"></a>
+  <a href="https://www.curseforge.com/minecraft/texture-packs/more-mobs"><img alt="CurseForge Downloads" src="https://img.shields.io/curseforge/dt/811791?logo=curseforge&label=CurseForge&colorA=1b1b29&colorB=bd5216&style=for-the-badge"></a>
+  <a href="https://modrinth.com/datapack/more-mobs"><img alt="Modrinth Downloads" src="https://img.shields.io/modrinth/dt/more-mobs?label=Modrinth&colorA=1b1b29&colorB=bd5216&style=for-the-badge&logo=modrinth"></a>
+  <a href="https://github.com/Tschipcraft/more_mobs/releases/latest"><img alt="GitHub Downloads" src="https://img.shields.io/github/downloads/Tschipcraft/more_mobs/total?logo=github&colorA=1b1b29&colorB=bd5216&style=for-the-badge"></a>
 </p>
 
 > A data pack/mod for Minecraft 1.14x-1.20x

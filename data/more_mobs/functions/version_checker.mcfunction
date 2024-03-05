@@ -2,7 +2,7 @@
 
 scoreboard objectives add ts.mm.version dummy
 execute store result score $global ts.mm.version run data get entity @r DataVersion
-execute unless score $global tvc_ignore matches 1 if score $global ts.mm.version matches 3800.. run tellraw @a [{"text":"[More Mobs] ","color":"gray"},{"text":"?","bold":true,"color":"gold"},{"text":" Minecraft version 1.21 or above detected! This data pack/mod may not work correctly anymore! Please make sure to check for updates in the tschipcraft.menu! (","color":"gold"},{"text":"/trigger tschipcraft.menu","underlined":true,"color":"gold","clickEvent":{"action":"run_command","value":"/trigger tschipcraft.menu"},"hoverEvent":{"action":"show_text","contents":"Click here"}},{"text":")","color":"gold"}]
+execute unless score $global tvc_ignore matches 1 if score $global ts.mm.version matches 3800.. run tellraw @a [{"text":"[More Mobs] ","color":"gray"},{"text":"?","bold":true,"color":"gold"},{"text":" Minecraft version 1.20.5 or above detected! This data pack/mod may not work correctly anymore! Please make sure to check for updates in the tschipcraft.menu! (","color":"gold"},{"text":"/trigger tschipcraft.menu","underlined":true,"color":"gold","clickEvent":{"action":"run_command","value":"/trigger tschipcraft.menu"},"hoverEvent":{"action":"show_text","contents":"Click here"}},{"text":")","color":"gold"}]
 #execute if score $global ts.mm.version matches 2976..3218 run say 1.19 detected!
 #execute if score $global ts.mm.version matches 2731..2975 run say 1.18 detected!
 #execute if score $global ts.mm.version matches 2587..2730 run say 1.17 detected!

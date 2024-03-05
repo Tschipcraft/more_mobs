@@ -1,6 +1,5 @@
 ## by Tschipcraft
-
-## Extension for 1.16 or above
+# Extension for mc 1.16 or above
 
 execute as @s[type=minecraft:skeleton,tag=!ts.mm.parsed,scores={ts.mm.random=0..19}] if block ~ ~-1 ~ minecraft:warped_nylium run function more_mobs:skeleton/warped
 execute as @s[type=minecraft:skeleton,tag=!ts.mm.parsed,scores={ts.mm.random=0..15}] if block ~ ~-1 ~ minecraft:crimson_nylium run function more_mobs:skeleton/piglin
@@ -19,4 +18,4 @@ execute as @s[type=minecraft:piglin,tag=!ts.mm.parsed,scores={ts.mm.random=10..1
 execute as @s[type=minecraft:piglin,tag=!ts.mm.parsed,scores={ts.mm.random=13}] run function more_mobs:piglin/rich
 
 # Extension for 1.19 or above
-function more_mobs:general/parse_119
+function more_mobs:general/parse_heads/parse_119
