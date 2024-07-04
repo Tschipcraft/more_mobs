@@ -1,0 +1,8 @@
+- **Update to Minecraft 1.20.6**
+  - New sub-version mob heads and items using item components
+  - New particle syntax
+  - Switched to using player_head loot table instead of parsing every mob head to reset its custom name when placed and broken
+- Fixed reset_heads clearing not only the heads but all armor
+- Fixed trying to set mobs on fire even when they are standing in water in mc1.19.4 and above
+- Switched from using data modify merge to data modify set
+- Fixed using quotes for the value false when setting the italic option

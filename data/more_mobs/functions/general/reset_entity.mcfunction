@@ -2,7 +2,7 @@
 # Resets entity (@s)
 
 # Remove custom head
-data merge entity @s {ArmorItems:[{},{},{},{id:"minecraft:air",Count:0b}]}
+data modify entity @s ArmorItems[3] set value {}
 
 # Reset tags
 tag @s remove ts.mm.parsed
