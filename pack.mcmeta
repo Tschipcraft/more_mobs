@@ -8,7 +8,7 @@
   "overlays": {
     "entries": [
       {
-        "formats": [39,99],
+        "formats": [39,44],
         "directory": "overlay_39"
       }
     ]
