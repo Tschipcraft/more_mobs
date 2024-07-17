@@ -4,6 +4,7 @@
     "minecraft:air",
     "minecraft:cave_air",
     "minecraft:void_air",
+    "minecraft:light",
     "minecraft:moving_piston",
     "minecraft:structure_void"
   ]

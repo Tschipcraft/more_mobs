@@ -1,8 +1,12 @@
-- **Update to Minecraft 1.20.6**
+- **Support for Minecraft 1.20.6** 🐺 **and 1.21** ⚔️ (closes [#12](https://github.com/Tschipcraft/more_mobs/issues/12))
   - New sub-version mob heads and items using item components
-  - New particle syntax
-  - Switched to using player_head loot table instead of parsing every mob head to reset its custom name when placed and broken
+  - Support for new particle syntax
+  - Switched to using player_head loot table instead of parsing every mob head to reset its custom name when placed and broken in 1.20.6+
+  - Updated menu trigger to use advancements instead and added menu message header in 1.21+
+  - Switched from using custom_name to item_name for head items to preserve their names when renamed in anvils in 1.21+
 - Fixed reset_heads clearing not only the heads but all armor
-- Fixed trying to set mobs on fire even when they are standing in water in mc1.19.4 and above
+- Fixed trying to set mobs on fire even when they are standing in water in 1.19.4 and above
+- Fixed some additional loot ignoring the setting
 - Switched from using data modify merge to data modify set
 - Fixed using quotes for the value false when setting the italic option
+- Updated LICENSE

@@ -9,7 +9,7 @@
   <a href="https://github.com/Tschipcraft/more_mobs/releases/latest"><img alt="GitHub Downloads" src="https://img.shields.io/github/downloads/Tschipcraft/more_mobs/total?logo=github&colorA=1b1b29&colorB=bd5216&style=for-the-badge"></a>
 </p>
 
-> A data pack/mod for Minecraft 1.14x-1.20x
+> A data pack/mod for Minecraft 1.14x-1.21x
 
 <details>
 <summary>YouTube showcase</summary>
@@ -42,7 +42,7 @@ Also available on Modrinth and CurseForge!
 <picture>
   <source height="72px" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Tschipcraft/badges/main/assets/modrinth-badge-dark.svg">
   <source height="72px" media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Tschipcraft/badges/main/assets/modrinth-badge-light.svg">
-  <img height="72px" alt="Download on Modrinth" src="https://raw.githubusercontent.com/modrinth/art/main/Branding/Badge/badge-dark.svg">
+  <img height="72px" alt="Download on Modrinth" src="https://raw.githubusercontent.com/Tschipcraft/badges/main/assets/modrinth-badge-dark.svg">
 </picture>
 </a>
 <a href="https://www.curseforge.com/minecraft/texture-packs/more-mobs">

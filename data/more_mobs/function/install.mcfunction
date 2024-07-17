@@ -17,8 +17,8 @@ scoreboard players set $generator ts.mm.ran4 21
 scoreboard objectives add ts.mm.nt_test dummy
 
 # Menu
-scoreboard objectives add ts.mm.welcome dummy
 scoreboard objectives add tschipcraft.menu trigger
+scoreboard players enable @a tschipcraft.menu
 
 scoreboard objectives add tvc_ignore dummy
 
@@ -27,11 +27,14 @@ scoreboard objectives add ts.mm.settings dummy
 # Defaults
 function more_mobs:settings/defaults
 
+# Reset advancement
+advancement revoke @a only tschipcraft:menu
+
 # Team
-#team remove ts.mm.nonametag why did i do this?
-team add ts.mm.nonametag
-team modify ts.mm.nonametag nametagVisibility never
-team join ts.mm.nonametag @e[type=#more_mobs:spider,tag=ts.mm.s_onceiling]
+# Spiders hanging from ceilings is broken since Snapshot 23w40a, no need to initialize the team
+#team add ts.mm.nonametag
+#team modify ts.mm.nonametag nametagVisibility never
+#team join ts.mm.nonametag @e[type=#more_mobs:spider,tag=ts.mm.s_onceiling]
 
 # Schedule
 schedule function more_mobs:general/effect_loop_trigger 1s

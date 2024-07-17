@@ -1,7 +1,7 @@
 ## by Tschipcraft
 # https://minecraft-heads.com/custom-heads/humanoid/4264-skeleton-captain
 
-data modify entity @s HandItems[1] set value {id:"minecraft:gold_ingot",Count:4b}
+execute if score $loot ts.mm.settings matches 1..2 run data modify entity @s HandItems[1] set value {id:"minecraft:gold_ingot",Count:4b,count:4}
 function more_mobs:skeleton/captain_loot
 
 # 1.15 or below

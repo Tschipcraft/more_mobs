@@ -36,4 +36,4 @@ displayTest="IGNORE_SERVER_VERSION"
     side="BOTH"
 
 [modproperties.moremobs]
-    catalogueItemIcon="minecraft:player_head{SkullOwner:{Id:[I;-1813291128,-1535753890,-1791977748,-535107511],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjA4MGRjOGJjYWQ4MjdhMzYzNThiMjRlMTIxODY5MzFiYTc1MjFlOTI0ZTEzMjFlZTFiY2ExNTg5YTUzYTRhZiJ9fX0=\"}]}}}"
+    catalogueItemIcon="pack.png"
