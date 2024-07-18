@@ -12,8 +12,8 @@ execute if score $global ts.mm.version matches 1933.. run function more_mobs:gen
 execute if score $global ts.mm.version matches 1933..3678 if score $upsided_s ts.mm.settings matches 1..2 as @e[type=#more_mobs:spider,tag=!ts.mm.exclude,tag=!smithed.entity,tag=!smithed.block,tag=!global.ignore,tag=!global.ignore.kill] at @s run function more_mobs:spider/main
 
 
-## Parse items
-execute as @e[type=minecraft:item,tag=!ts.mm.parsed_item,tag=!smithed.entity,tag=!smithed.block,tag=!global.ignore] run function more_mobs:general/parse_head_items/check
+## Parse items (until 24w09a since custom names are stored in block entities now)
+execute if score $global ts.mm.version matches ..3818 as @e[type=minecraft:item,tag=!ts.mm.parsed_item,tag=!smithed.entity,tag=!smithed.block,tag=!global.ignore] run function more_mobs:general/parse_head_items/check
 
 
 ## Menu

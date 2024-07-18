@@ -9,7 +9,7 @@
   <a href="https://github.com/Tschipcraft/more_mobs/releases/latest"><img alt="GitHub Downloads" src="https://img.shields.io/github/downloads/Tschipcraft/more_mobs/total?logo=github&colorA=1b1b29&colorB=bd5216&style=for-the-badge"></a>
 </p>
 
-> A data pack/mod for Minecraft 1.14x-1.20x
+> A data pack/mod for Minecraft 1.14x-1.21x
 
 <details>
 <summary>YouTube showcase</summary>
@@ -20,7 +20,7 @@
 
 ## Features
 
-Mobs have new variants through custom heads or through hidden vanilla mobs! This pack uses **over 85 custom player heads** which can be obtained and placed in your world.
+Mobs have new variants through custom heads or through unused vanilla mobs! This pack uses **over 85 custom player heads** which can be obtained and placed in your world. Spiders also turn upside down when hanging from ceilings.
 
 **Supported Entities:**
 Zombies, Husks, Drowned, Skeletons, Strays, Wither Skeletons, Mooshrooms, Piglins, Pillagers, Evokers and Vindicators
@@ -34,7 +34,7 @@ This data pack/mod is completely server-side, but can also be installed on the c
 
 Download the latest release from [here](https://github.com/Tschipcraft/more_mobs/releases/latest) and put the data pack .zip file into the `datapacks` folder of your Minecraft world.
 
-This data pack is also available as a mod with an additional global settings menu when installed alongside [MidnightLib](https://modrinth.com/mod/midnightlib). Download the latest release and put the mod .jar file into your `.minecraft/mods` folder.
+This data pack is also available as a mod with an additional global config file and settings menu when installed alongside [MidnightLib](https://modrinth.com/mod/midnightlib). Download the latest release and put the mod .jar file into your `.minecraft/mods` folder.
 
 Also available on Modrinth and CurseForge!
 
@@ -42,7 +42,7 @@ Also available on Modrinth and CurseForge!
 <picture>
   <source height="72px" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Tschipcraft/badges/main/assets/modrinth-badge-dark.svg">
   <source height="72px" media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Tschipcraft/badges/main/assets/modrinth-badge-light.svg">
-  <img height="72px" alt="Download on Modrinth" src="https://raw.githubusercontent.com/modrinth/art/main/Branding/Badge/badge-dark.svg">
+  <img height="72px" alt="Download on Modrinth" src="https://raw.githubusercontent.com/Tschipcraft/badges/main/assets/modrinth-badge-dark.svg">
 </picture>
 </a>
 <a href="https://www.curseforge.com/minecraft/texture-packs/more-mobs">

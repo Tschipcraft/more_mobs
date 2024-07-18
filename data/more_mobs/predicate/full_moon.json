@@ -1,0 +1,9 @@
+{
+  "//comment": "This predicate is currently not used by the data pack, but may come in handy if I decide to do something with it",
+  "condition": "minecraft:time_check",
+  "value": {
+    "min": 14000,
+    "max": 22000
+  },
+  "period": 192000
+}

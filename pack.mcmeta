@@ -2,7 +2,15 @@
   "id": "moremobs",
   "pack": {
     "pack_format": 15,
-    "supported_formats": [4,32],
+    "supported_formats": [4,48],
     "description": "Tschipcraft's More Mobs \n└ v${version} ● mc${mc_version}"
+  },
+  "overlays": {
+    "entries": [
+      {
+        "formats": [39,44],
+        "directory": "overlay_39"
+      }
+    ]
   }
 }

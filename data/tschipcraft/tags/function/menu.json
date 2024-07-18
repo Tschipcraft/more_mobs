@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "tschipcraft:menu_header",
+    "more_mobs:messages/welcome"
+  ]
+}
