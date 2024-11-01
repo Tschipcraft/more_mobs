@@ -6,4 +6,4 @@ execute if score $global ts.mm.version matches 3819.. as @e[nbt={ArmorItems:[{},
 
 tag @e[tag=ts.mm.parsed] remove ts.mm.parsed
 
-say ⏏ Successfully resetted custom player heads!
+say ⏏ Successfully cleared custom player heads!

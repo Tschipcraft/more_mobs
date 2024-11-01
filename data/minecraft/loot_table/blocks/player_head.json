@@ -1,5 +1,5 @@
 {
-  "//comment": "This loot table appends the now saved custom_data component in the block entity to the player head item. Parsing and modifying dropped head items is therefore not neccessary anymore since 24w13a.",
+  "//comment": "This loot table appends the now saved custom_data component in the block entity to the player head item. Parsing and modifying dropped head items is therefore not necessary anymore since 24w13a.",
   "type": "minecraft:block",
   "pools": [
     {

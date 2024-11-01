@@ -5,4 +5,4 @@ execute as @e[nbt={ArmorItems:[{},{},{},{id:"minecraft:player_head",count:1,comp
 
 tag @e[tag=ts.mm.parsed] remove ts.mm.parsed
 
-say ⏏ Successfully resetted custom player heads!
+say ⏏ Successfully cleared custom player heads!
