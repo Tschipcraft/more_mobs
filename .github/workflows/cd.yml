@@ -91,11 +91,12 @@ jobs:
           modrinth-id: HJR6V0I2
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
           game-versions: ${{ github.event.inputs.mc_version_range }}
+          game-version-filter: any
           fail-mode: skip
 
           name: "[DP] Release v${{ github.event.inputs.tag }}"
           version: ${{ github.event.inputs.tag }}
-          changelog-file: CHANGES.*
+          changelog-file: CHANGES.md
 
           loaders: |
             datapack
@@ -109,11 +110,12 @@ jobs:
           modrinth-id: HJR6V0I2
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
           game-versions: ${{ github.event.inputs.mc_version_range }}
+          game-version-filter: any
           fail-mode: skip
 
           name: "[Mod] Release v${{ github.event.inputs.tag }}"
           version: ${{ github.event.inputs.tag }}+mod
-          changelog-file: CHANGES.*
+          changelog-file: CHANGES.md
 
           dependencies: |
             fabric-api(optional){modrinth:P7dR8mSH}
@@ -134,11 +136,12 @@ jobs:
           curseforge-id: 811791
           curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
           game-versions: ${{ github.event.inputs.mc_version_range }}
+          game-version-filter: any
           fail-mode: skip
 
           name: "Release v${{ github.event.inputs.tag }}"
           version: ${{ github.event.inputs.tag }}
-          changelog-file: CHANGES.*
+          changelog-file: CHANGES.md
 
           loaders: |
             datapack
@@ -152,11 +155,12 @@ jobs:
           curseforge-id: 909654
           curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
           game-versions: ${{ github.event.inputs.mc_version_range }}
+          game-version-filter: any
           fail-mode: skip
 
           name: "Release v${{ github.event.inputs.tag }}"
           version: ${{ github.event.inputs.tag }}+mod
-          changelog-file: CHANGES.*
+          changelog-file: CHANGES.md
 
           dependencies: |
             catalogue(optional){curseforge:459701}
