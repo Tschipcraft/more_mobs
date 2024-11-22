@@ -1,1 +1,2 @@
-- **Added support for Minecraft 1.21.3** 💰
+- **Added support for Minecraft 1.21.4** 🪵
+- Re-enabled upside down spiders for 1.21.4+ as [MC-128225](https://bugs.mojang.com/browse/MC-128225) was fixed
