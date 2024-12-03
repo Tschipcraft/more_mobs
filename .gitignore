@@ -1,1 +1,6 @@
 /temp
+/unused
+
+# Package Files #
+*.jar
+*.zip
