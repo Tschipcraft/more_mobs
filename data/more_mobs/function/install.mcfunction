@@ -31,10 +31,9 @@ function more_mobs:settings/defaults
 advancement revoke @a only tschipcraft:menu
 
 # Team
-# Spiders hanging from ceilings is broken since Snapshot 23w40a, no need to initialize the team
-#team add ts.mm.nonametag
-#team modify ts.mm.nonametag nametagVisibility never
-#team join ts.mm.nonametag @e[type=#more_mobs:spider,tag=ts.mm.s_onceiling]
+team add ts.mm.nonametag
+team modify ts.mm.nonametag nametagVisibility never
+team join ts.mm.nonametag @e[type=#more_mobs:spider,tag=ts.mm.s_onceiling]
 
 # Schedule
 schedule function more_mobs:general/effect_loop_trigger 1s

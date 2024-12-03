@@ -1,6 +1,7 @@
 ## by Tschipcraft
 
 tag @s remove ts.mm.s_onceiling
-# TODO: Replace with data remove in future versions when https://bugs.mojang.com/browse/MC-128225 is fixed
-execute if score $global ts.mm.version matches ..3678 run data merge entity @s {CustomNameVisible:0b,CustomName:""}
+# https://bugs.mojang.com/browse/MC-128225 got fixed in 1.21.4-pre1
+execute if score $global ts.mm.version matches 4179.. run data remove entity @s CustomName
+execute if score $global ts.mm.version matches 4179.. run data remove entity @s CustomNameVisible
 team leave @s

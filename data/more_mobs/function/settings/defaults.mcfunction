@@ -1,5 +1,5 @@
 ##by Tschipcraft
-# Set default settings upon world reload or data pack reset
+# Sets default settings during installation or if entry is incorrect
 # Called by install.mcfunction
 
 execute unless score $enable_heads ts.mm.settings matches -1..2 run scoreboard players set $enable_heads ts.mm.settings 1
