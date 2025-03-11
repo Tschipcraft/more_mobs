@@ -1,7 +1,7 @@
 ## by Tschipcraft
 
 # Exclusion for already filled head slots
-execute as @s[tag=!ts.mm.parsed] as @s[nbt={ArmorItems:[{},{},{},{Count:1b}]}] run tag @s add ts.mm.parsed
+execute as @s[tag=!ts.mm.parsed,predicate=more_mobs:has_filled_head_slot] run tag @s add ts.mm.parsed
 
 # Skeleton
 execute as @s[type=minecraft:skeleton,tag=!ts.mm.parsed,scores={ts.mm.random=2..3}] run function more_mobs:skeleton/alternate
@@ -97,5 +97,4 @@ execute as @s[type=minecraft:vindicator,tag=!ts.mm.parsed,scores={ts.mm.random=1
 function more_mobs:general/parse_heads/parse_116
 
 # Finalize
-execute if score $head_drops ts.mm.settings matches 1..2 as @s[tag=ts.mm.custom_head] run data merge entity @s {ArmorDropChances:[0.085F,0.085F,0.085F,0.030F]}
-execute if score $head_drops ts.mm.settings matches -1..0 as @s[tag=ts.mm.custom_head] run data merge entity @s {ArmorDropChances:[0.085F,0.085F,0.085F,-327.670F]}
+function more_mobs:general/parse_heads/set_drop_chances
