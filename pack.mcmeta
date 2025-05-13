@@ -3,7 +3,7 @@
   "pack": {
     "pack_format": 15,
     "supported_formats": [4,61],
-    "description": "Tschipcraft's More Mobs \n└ v${version} ● mc${mc_version}"
+    "description": "Tschipcraft's More Mobs \n└ v${version} ● mc${mc_human_version_range}"
   },
   "overlays": {
     "entries": [

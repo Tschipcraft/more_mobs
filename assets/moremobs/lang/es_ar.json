@@ -19,7 +19,7 @@
   "moremobs.midnightconfig.enable_additional_valuable_loot": " └ Agregar botín valioso adicional",
   "moremobs.midnightconfig.enable_additional_valuable_loot.tooltip": "Por defecto: §aSí§f\nIncluye cosas como aliento de dragón, tótem de inmortalidad y élytras.",
   "moremobs.midnightconfig.enable_upside_down_spiders": "Activar arañas al revés",
-  "moremobs.midnightconfig.enable_upside_down_spiders.tooltip": "Por defecto: §aSí§f\nSi está activado, las arañas se darán vuelta al colgarse de techos.\nSolo para versiones anteriores a Minecraft 1.20.3.",
+  "moremobs.midnightconfig.enable_upside_down_spiders.tooltip": "Por defecto: §aSí§f\nSi está activado, las arañas se darán vuelta al colgarse de techos.\nNo disponible para Minecraft 1.20.3-1.21.2 debido a MC-128225.",
   "moremobs.midnightconfig.enable_let_undead_mobs_burn_in_daylight": "Dejar que los mobs no-muertos con cabezas se quemen al sol",
   "moremobs.midnightconfig.enable_let_undead_mobs_burn_in_daylight.tooltip": "Por defecto: §aSí§f\nSi está activado, los mobs no-muertos con cabezas personalizadas se quemarán a la luz del sol.\nSolo para Minecraft 1.19.4 o superior.",
 

@@ -1,9 +1,6 @@
 {
   "schemaVersion": 1,
   "environment": "*",
-  "depends": {
-    "minecraft": ">=1.14"
-  },
   "entrypoints": {
     "main": [
       "net.tschipcraft.moremobs.fabric.Init"
@@ -12,7 +9,7 @@
   "id": "moremobs",
   "version": "${version}+mod",
   "name": "More Mobs",
-  "description": "Humanoid mobs get new variants through custom heads or through unused vanilla mobs! This pack uses §lover 85§r custom player heads which can be obtained and placed in your world.\nNo Resource pack needed!\n§lSupported Entities:§r Zombies, Husks, Drowned, Skeletons, Strays, Wither Skeletons, Mooshrooms, Piglins, Pillagers, Evokers and Vindicators\nExecute the command §o/function §omore_mobs:settings§r for a world-specific settings menu and/or install MidnightLib for global settings accross all worlds.",
+  "description": "Humanoid mobs get new variants through custom heads or through unused vanilla mobs! This pack uses §lover 85§r custom player heads which can be obtained and placed in your world.\nNo Resource pack needed!\n§lSupported Entities:§r Zombies, Husks, Drowned, Skeletons, Strays, Wither Skeletons, Mooshrooms, Piglins, Pillagers, Evokers and Vindicators\nExecute the command §o/function §omore_mobs:settings§r for a world-specific settings menu and/or install MidnightLib for global settings across all worlds.",
   "license": "Custom",
   "icon": "pack.png",
   "authors": [
@@ -23,6 +20,11 @@
     "sources": "https://github.com/Tschipcraft/more_mobs",
     "issues": "https://github.com/Tschipcraft/more_mobs/issues"
   },
+  "depends": {
+    "minecraft": "${mc_version_range_fabric}",
+    "fabric": ">=0.2.7",
+    "java": ">=8"
+  },
   "recommends": {
     "modmenu": "*",
     "modmenu-badges-lib": "*",
@@ -32,8 +34,8 @@
     "modmenu": {
       "links": {
         "modmenu.donate": "https://ko-fi.com/tschipcraft",
-        "modmenu.modrinth": "https://modrinth.com/datapack/more-mobs",
-        "modmenu.curseforge": "https://www.curseforge.com/minecraft/texture-packs/more-mobs",
+        "modmenu.modrinth": "https://modrinth.com/mod/HJR6V0I2",
+        "modmenu.curseforge": "https://www.curseforge.com/minecraft/mc-mods/mod-more-mobs",
         "modmenu.wiki": "https://github.com/Tschipcraft/more_mobs/wiki",
         "modmenu.youtube": "https://www.youtube.com/@tschipcraft"
       }

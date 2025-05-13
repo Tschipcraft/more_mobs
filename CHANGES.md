@@ -1,2 +1,3 @@
-- **Added support for Minecraft 1.21.4** 🪵
-- Re-enabled upside down spiders for 1.21.4+ as [MC-128225](https://bugs.mojang.com/browse/MC-128225) was fixed
+- Fixed exclusion check for already filled head slots not working since 1.20.5 (closes [#18](https://github.com/Tschipcraft/more_mobs/issues/18))
+- Annotated the required Java version for mod versions
+- Added Argentine Spanish (es_ar) language support (Thanks @Texaliuz)
