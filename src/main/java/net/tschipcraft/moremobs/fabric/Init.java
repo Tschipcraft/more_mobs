@@ -15,6 +15,7 @@ public class Init implements ModInitializer {
 			// Directly reference a slf4j logger
 			LOGGER = LoggerFactory.getLogger("moremobs");
 		} catch (NoClassDefFoundError ignored) {
+			// No logging
 		}
 	}
 
@@ -25,15 +26,16 @@ public class Init implements ModInitializer {
 			// Build config class
 			Config.init(LOGGER.getName(), Config.class);
 
-			LOGGER.info("[More Mobs] Registering server started event...");
+			LOGGER.info("[More Mobs] Registering server started event ...");
 			ServerLifecycleEvents.SERVER_STARTED.register((server) -> {
 				if (FabricLoader.getInstance().isModLoaded("midnightlib")) {
 					// Use MidnightLib features
-					LOGGER.info("[More Mobs] Sending global config to world...");
+					LOGGER.info("[More Mobs] Sending global config to world ...");
 					sendConfig.sendConfig(server);
 				}
 			});
 		}
 		if (LOGGER != null) LOGGER.info("[More Mobs] Loaded More Mobs by Tschipcraft successfully!");
 	}
+
 }

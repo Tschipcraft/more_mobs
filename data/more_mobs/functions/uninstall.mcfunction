@@ -18,7 +18,7 @@ scoreboard objectives remove ts.mm.welcome
 scoreboard objectives remove tschipcraft.menu
 
 scoreboard objectives remove ts.mm.version
-scoreboard objectives remove tvc_ignore
+execute unless score $global tvc_ignore matches 1 run scoreboard objectives remove tvc_ignore
 
 # Settings
 scoreboard objectives remove ts.mm.settings
@@ -30,6 +30,7 @@ team remove ts.mm.nonametag
 datapack disable "file/more_mobs"
 datapack disable "file/more_mobs.zip"
 datapack disable "mod:moremobs"
+datapack disable "mod/moremobs"
 datapack disable "file/${file_name}"
 
 say ⏻ More Mobs ${version} by Tschipcraft successfully uninstalled! [Initiated by @s]

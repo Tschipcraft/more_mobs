@@ -18,6 +18,7 @@ scoreboard objectives add ts.mm.nt_test dummy
 
 # Menu
 scoreboard objectives add tschipcraft.menu trigger
+scoreboard players reset @a tschipcraft.menu
 scoreboard players enable @a tschipcraft.menu
 
 scoreboard objectives add tvc_ignore dummy

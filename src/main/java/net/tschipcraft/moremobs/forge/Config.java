@@ -41,4 +41,5 @@ public class Config extends MidnightConfig {
     public static bool enable_upside_down_spiders = bool.WORLD;
     @Entry
     public static bool enable_let_undead_mobs_burn_in_daylight = bool.WORLD;
+
 }

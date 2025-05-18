@@ -1,4 +1,4 @@
-package net.tschipcraft.moremobs.fabric;
+package net.tschipcraft.moremobs.neoforge;
 
 import eu.midnightdust.lib.config.MidnightConfig;
 

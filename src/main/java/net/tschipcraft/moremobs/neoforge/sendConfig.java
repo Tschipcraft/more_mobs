@@ -1,4 +1,4 @@
-package net.tschipcraft.moremobs.forge;
+package net.tschipcraft.moremobs.neoforge;
 
 import com.mojang.brigadier.exceptions.CommandSyntaxException;
 import net.minecraft.commands.CommandSourceStack;

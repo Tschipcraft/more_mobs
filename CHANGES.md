@@ -1,3 +1,5 @@
+- **Added native NeoForge support** (closes [#22](https://github.com/Tschipcraft/more_mobs/issues/22))
+- Fixed Forge version crashing in 1.16x-1.17x with Java 8 or Java 16
 - Fixed exclusion check for already filled head slots not working since 1.20.5 (closes [#18](https://github.com/Tschipcraft/more_mobs/issues/18))
 - Annotated the required Java version for mod versions
 - Added Argentine Spanish (es_ar) language support (Thanks @Texaliuz)
