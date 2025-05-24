@@ -4,7 +4,7 @@
 </h1>
 <p align="center">
   <a href="https://github.com/Tschipcraft/more_mobs/stargazers"><img alt="GitHub Stars" src="https://img.shields.io/github/stars/Tschipcraft/more_mobs?colorA=1b1b29&colorB=bd5216&style=for-the-badge"></a>
-  <a href="https://www.curseforge.com/minecraft/texture-packs/more-mobs"><img alt="CurseForge Downloads" src="https://img.shields.io/curseforge/dt/811791?logo=curseforge&label=CurseForge&colorA=1b1b29&colorB=bd5216&style=for-the-badge"></a>
+  <a href="https://www.curseforge.com/minecraft/mc-mods/mod-more-mobs"><img alt="CurseForge Downloads" src="https://img.shields.io/curseforge/dt/909654?logo=curseforge&label=CurseForge&colorA=1b1b29&colorB=bd5216&style=for-the-badge"></a>
   <a href="https://modrinth.com/datapack/more-mobs"><img alt="Modrinth Downloads" src="https://img.shields.io/modrinth/dt/more-mobs?label=Modrinth&colorA=1b1b29&colorB=bd5216&style=for-the-badge&logo=modrinth"></a>
   <a href="https://github.com/Tschipcraft/more_mobs/releases/latest"><img alt="GitHub Downloads" src="https://img.shields.io/github/downloads/Tschipcraft/more_mobs/total?logo=github&colorA=1b1b29&colorB=bd5216&style=for-the-badge"></a>
 </p>
@@ -45,7 +45,7 @@ Also available on Modrinth and CurseForge!
   <img height="72px" alt="Download on Modrinth" src="https://raw.githubusercontent.com/Tschipcraft/badges/main/assets/modrinth-badge-dark.svg">
 </picture>
 </a>
-<a href="https://www.curseforge.com/minecraft/texture-packs/more-mobs">
+<a href="https://www.curseforge.com/minecraft/data-packs/more-mobs">
 <picture>
   <source height="72px" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Tschipcraft/badges/main/assets/curseforge-badge-dark.svg">
   <source height="72px" media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Tschipcraft/badges/main/assets/curseforge-badge-light.svg">

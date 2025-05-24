@@ -1,0 +1,6 @@
+@targets 1.20.5-pre1..24w20a (pre legacy renames)
+@changes function calls, predicates and loot tables
+
+- Saves and restores custom_name using an adjusted player_head loot table
+- Switches to using predicates for already filled head slot exclusion check
+- New particle syntax

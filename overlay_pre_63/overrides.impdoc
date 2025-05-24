@@ -1,0 +1,22 @@
+@targets 24w21a..25w02a
+@changes function calls
+
+Reverts to old text component format:
+`hover_event` -> `hoverEvent`
+  `"action":"show_text","value":` -> `"action":"show_text","contents":` (`text` in 25w02a)
+`click_event` -> `clickEvent`
+  `"action":"run_command","command":` -> `"action":"run_command","value":`
+  `"action":"open_url","url":` -> `"action":"open_url","value":`
+`[{` -> `'[{`
+`}]` -> `}]'`
+
+Reverts to old equipment NBT format:
+`equipment.head` -> `ArmorItems[3]`
+`equipment.chest` -> `ArmorItems[2]`
+`equipment.legs` -> `ArmorItems[1]`
+`equipment.feet` -> `ArmorItems[0]`
+`equipment.mainhand` -> `HandItems[0]`
+`equipment.offhand` -> `HandItems[1]`
+
+Reverts to old drop_chances format:
+`drop_chances` -> `ArmorDropChances`
