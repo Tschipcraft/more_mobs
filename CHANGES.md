@@ -1,4 +1,4 @@
-- **Added support for Minecraft 1.21.5** 🌸 (closes [#21](https://github.com/Tschipcraft/more_mobs/issues/21))
+- **Added support for Minecraft 1.21.5** 🌸 **and  1.21.6** ☁️ (closes [#21](https://github.com/Tschipcraft/more_mobs/issues/21), [#23](https://github.com/Tschipcraft/more_mobs/issues/23))
   - Updated to work with new equipment NBT format, new text component format, and ArmorDropChances NBT renaming
 - **Added native NeoForge support** (closes [#22](https://github.com/Tschipcraft/more_mobs/issues/22))
 - Fixed Forge version crashing in 1.16x-1.17x with Java 8 or Java 16
