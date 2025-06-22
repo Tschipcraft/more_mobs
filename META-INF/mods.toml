@@ -34,7 +34,7 @@ features={ java_version = "[8,)" }
     modId="midnightlib"
     mandatory=false
     versionRange="[1.0.0,)"
-    ordering="NONE"
+    ordering="AFTER"
     side="BOTH"
     referralUrl="https://modrinth.com/mod/codAaoxh/versions?l=forge"
 

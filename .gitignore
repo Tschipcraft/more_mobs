@@ -1,5 +1,10 @@
-/temp
-/unused
+# Project-specific #
+temp
+unused
+wiki/pages
+
+# VSCode #
+.vscode
 
 # Package Files #
 *.jar
