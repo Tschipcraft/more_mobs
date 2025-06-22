@@ -1,7 +1,7 @@
 ## by Tschipcraft
 
 # Exclusion for already filled head slots
-execute as @s[tag=!ts.mm.parsed] as @s[nbt={ArmorItems:[{},{},{},{Count:1b}]}] run tag @s add ts.mm.parsed
+function more_mobs:general/parse_heads/exclude_check
 
 # Skeleton
 execute as @s[type=minecraft:skeleton,tag=!ts.mm.parsed,scores={ts.mm.random=2..3}] run function more_mobs:skeleton/alternate

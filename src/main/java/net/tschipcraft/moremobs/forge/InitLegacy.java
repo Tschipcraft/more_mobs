@@ -6,7 +6,8 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-@Mod("moremobs")
+// This class gets translated into Java 8 bytecode.
+@Mod(InitLegacy.MODID)
 public class InitLegacy {
 
     public static final String MODID = "moremobs";
@@ -18,6 +19,7 @@ public class InitLegacy {
             // Directly reference a slf4j logger
             LOGGER = LogManager.getLogger();
         } catch (NoClassDefFoundError ignored) {
+            // No logging
         }
     }
 
@@ -47,4 +49,5 @@ public class InitLegacy {
             if (dot != -1) { version = version.substring(0, dot); }
         } return Integer.parseInt(version);
     }
+
 }

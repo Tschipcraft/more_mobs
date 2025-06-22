@@ -1,2 +1,8 @@
-- **Added support for Minecraft 1.21.4** 🪵
-- Re-enabled upside down spiders for 1.21.4+ as [MC-128225](https://bugs.mojang.com/browse/MC-128225) was fixed
+- **Added support for Minecraft 1.21.5** 🌸 **and  1.21.6** ☁️ (closes [#21](https://github.com/Tschipcraft/more_mobs/issues/21), [#23](https://github.com/Tschipcraft/more_mobs/issues/23))
+  - Updated to work with new equipment NBT format, new text component format, and ArmorDropChances NBT renaming
+- **Added native NeoForge support** (closes [#22](https://github.com/Tschipcraft/more_mobs/issues/22))
+- Fixed Forge version crashing in 1.16x-1.17x with Java 8 or Java 16
+- Fixed exclusion check for already filled head slots not working since 1.20.5 (closes [#18](https://github.com/Tschipcraft/more_mobs/issues/18))
+- Fixed trying to set mobs on fire even when they are standing in water in 1.19.4 and above (again)
+- Annotated the required Java version for mod versions
+- Added Argentine Spanish (`es_ar`) language support (Thanks @Texaliuz)

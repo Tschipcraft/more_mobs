@@ -2,7 +2,7 @@
 # Resets entity (@s)
 
 # Remove custom head
-data modify entity @s ArmorItems[3] set value {}
+data remove entity @s equipment.head
 
 # Reset tags
 tag @s remove ts.mm.parsed
