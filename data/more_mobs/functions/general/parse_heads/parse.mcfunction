@@ -55,8 +55,10 @@ execute as @s[type=minecraft:zombie,tag=!ts.mm.parsed,scores={ts.mm.random=4..6}
 execute as @s[type=minecraft:zombie,tag=!ts.mm.parsed,scores={ts.mm.random=10..11}] run function more_mobs:zombie/enderman
 execute as @s[type=minecraft:zombie,tag=!ts.mm.parsed,scores={ts.mm.random=13..18}] if block ~ ~-1 ~ #more_mobs:jungle_blocks run function more_mobs:zombie/jungle
 execute as @s[type=minecraft:zombie,tag=!ts.mm.parsed,scores={ts.mm.random=6..11}] if block ~ ~-1 ~ minecraft:grass_block[snowy=true] run function more_mobs:zombie/snowy
-execute as @s[type=minecraft:zombie,tag=!ts.mm.parsed,scores={ts.mm.random=14..19}] if block ~ ~-1 ~ minecraft:grass_block[snowy=true] run function more_mobs:zombie/frozen
-execute as @s[type=minecraft:zombie,tag=!ts.mm.parsed,scores={ts.mm.random=11..19}] if block ~ ~-1 ~ #minecraft:ice run function more_mobs:zombie/frozen
+execute as @s[type=minecraft:zombie,tag=!ts.mm.parsed,scores={ts.mm.random=14..18}] if block ~ ~-1 ~ minecraft:grass_block[snowy=true] run function more_mobs:zombie/frozen_1
+execute as @s[type=minecraft:zombie,tag=!ts.mm.parsed,scores={ts.mm.random=18..19}] if block ~ ~-1 ~ minecraft:grass_block[snowy=true] run function more_mobs:zombie/frozen_2
+execute as @s[type=minecraft:zombie,tag=!ts.mm.parsed,scores={ts.mm.random=11..16}] if block ~ ~-1 ~ #minecraft:ice run function more_mobs:zombie/frozen_1
+execute as @s[type=minecraft:zombie,tag=!ts.mm.parsed,scores={ts.mm.random=16..19}] if block ~ ~-1 ~ #minecraft:ice run function more_mobs:zombie/frozen_2
 execute as @s[type=minecraft:zombie,tag=!ts.mm.parsed,scores={ts.mm.random=12..16}] if block ~ ~ ~ minecraft:water run function more_mobs:zombie/lake
 execute as @s[type=minecraft:zombie,tag=!ts.mm.parsed,scores={ts.mm.random=8..11}] if block ~ ~ ~ minecraft:water run function more_mobs:zombie/swamp
 execute as @s[type=minecraft:zombie,tag=!ts.mm.parsed,scores={ts.mm.random=9}] run function more_mobs:zombie/lobber

@@ -1,1 +1,3 @@
-- **Added support for Minecraft 1.21.7** 💿
+- **Added support for Minecraft 1.21.9** 🥉
+  - Updated to work with the new pack.mcmeta syntax
+- Fixed an oversight that was preventing the second Frozen Zombie variant from spawning (closes [#27](https://github.com/Tschipcraft/more_mobs/issues/27))
