@@ -310,6 +310,6 @@ jobs:
             <img alt="❌ Error" src="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/dark-theme/error.svg">
           </picture><br>
 
-          The build v${{ env.TAG }} for mc${{ env.MC_HUMAN_VERSION_RANGE }} failed! Please check the action logs for details.
+          The build **v${{ env.TAG }}** for **Minecraft ${{ env.MC_HUMAN_VERSION_RANGE }}** failed! Please check the action logs for details.
           EOF
           fi
