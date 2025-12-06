@@ -1,3 +1,4 @@
-- **Added support for Minecraft 1.21.9** 🥉
-  - Updated to work with the new pack.mcmeta syntax
-- Fixed an oversight that was preventing the second Frozen Zombie variant from spawning (closes [#27](https://github.com/Tschipcraft/more_mobs/issues/27))
+- **Added support for Minecraft 1.21.11** 🐎
+  - Updated rain detection to use our own `#is_dry` biome tag combo instead of the now removed `#snow_golem_melts` tag
+  - Removed broken hide feedback code for 1.21+
+  - Bumped pack format and protocol version
