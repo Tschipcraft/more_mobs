@@ -33,5 +33,4 @@ execute if score $mobs_burn ts.mm.settings matches 0 run tellraw @s ["",{"text":
 execute if score $mobs_burn ts.mm.settings matches -1 run tellraw @s [{"text":"Let mobs with custom heads burn in daylight  [off]","bold":false,"color":"gray","hover_event":{"action":"show_text","value":[{"text":"This setting is getting controlled globally and can't be changed here."}]}}]
 execute if score $mobs_burn ts.mm.settings matches 2 run tellraw @s [{"text":"Let mobs with custom heads burn in daylight  [on]","bold":false,"color":"gray","hover_event":{"action":"show_text","value":[{"text":"This setting is getting controlled globally and can't be changed here."}]}}]
 
-function more_mobs:settings/hide_feedback/main
 playsound minecraft:block.dispenser.dispense master @s ~ ~ ~ 0.2 2

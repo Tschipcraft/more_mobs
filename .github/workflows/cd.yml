@@ -19,6 +19,11 @@ on:
         required: false
         default: false
         type: boolean
+      separate_forge:
+        description: 'If false, separate Modrinth Forge mod version will not be uploaded'
+        required: false
+        default: true
+        type: boolean
 
 jobs:
   deploy:
@@ -250,6 +255,29 @@ jobs:
             datapack
           files: |
             ./${{ github.event.repository.name }}-v${{ github.event.inputs.tag }}-mc${{ env.MC_HUMAN_VERSION_RANGE }}-datapack.zip
+
+      - name: Upload Forge mod version to Modrinth # Forge mod version is uploaded separately due to it not being compatible with Minecraft 1.21.6 or above
+        id: upload_forge_modrinth_mod
+        uses: Kir-Antipov/mc-publish@v3.3
+        if: steps.check_mod_folder.outputs.files_exists == 'true' && github.event.inputs.dry_run == 'false' && github.event.inputs.separate_forge == 'true'
+        with:
+          modrinth-id: HJR6V0I2
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+          game-versions: |
+            >=1.17 <=1.21.5
+          game-version-filter: any
+          fail-mode: skip
+
+          name: "[Mod] Release v${{ github.event.inputs.tag }}"
+          version: ${{ github.event.inputs.tag }}+mod
+          changelog-file: CHANGES.md
+
+          dependencies: |
+            midnightlib(optional){modrinth:codAaoxh}
+          loaders: |
+            forge
+          files: |
+            ./${{ github.event.repository.name }}-v${{ github.event.inputs.tag }}-mc${{ env.MC_HUMAN_VERSION_RANGE }}-mod.jar
       
       - name: Upload mod version to Modrinth
         id: upload_modrinth_mod
@@ -275,7 +303,6 @@ jobs:
           loaders: |
             fabric
             quilt
-            forge
             neoforge
           files: |
             ./${{ github.event.repository.name }}-v${{ github.event.inputs.tag }}-mc${{ env.MC_HUMAN_VERSION_RANGE }}-mod.jar
@@ -326,7 +353,6 @@ jobs:
           loaders: |
             fabric
             quilt
-            forge
             neoforge
           files: |
             ./${{ github.event.repository.name }}-v${{ github.event.inputs.tag }}-mc${{ env.MC_HUMAN_VERSION_RANGE }}-mod.jar
