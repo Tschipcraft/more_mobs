@@ -1,2 +1,3 @@
-- **Added support for Minecraft 26.1** 🐤
+- **Added support for Minecraft 26.1x** 🐤
+  - Updated night detection to use the new `minecraft:overworld` world clock
   - Bumped pack format and protocol version
