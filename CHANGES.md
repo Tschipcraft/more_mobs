@@ -1,3 +1,4 @@
-- **Added support for Minecraft 26.1x** 🐤
+- **Added support for Minecraft 26.1.x** 🐤
   - Updated night detection to use the new `minecraft:overworld` world clock
+  - Added router to handle [unobfuscated code](https://www.minecraft.net/en-us/article/removing-obfuscation-in-java-edition)
   - Bumped pack format and protocol version
