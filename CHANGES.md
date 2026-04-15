@@ -1,4 +1,4 @@
-- **Added support for Minecraft 1.21.11** 🐎
-  - Updated rain detection to use our own `#is_dry` biome tag combo instead of the now removed `#snow_golem_melts` tag
-  - Removed broken hide feedback code for 1.21+
+- **Added support for Minecraft 26.1.x** 🐤
+  - Updated night detection to use the new `minecraft:overworld` world clock
+  - Added router to handle [unobfuscated code](https://www.minecraft.net/en-us/article/removing-obfuscation-in-java-edition)
   - Bumped pack format and protocol version

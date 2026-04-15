@@ -2,9 +2,9 @@
   "id": "moremobs",
   "pack": {
     "pack_format": 15,
-    "supported_formats": [4,94],
+    "supported_formats": [4,101],
     "min_format": 4,
-    "max_format": 94,
+    "max_format": 101,
     "description": "Tschipcraft's More Mobs \n└ v${version} ● mc${mc_human_version_range}"
   },
   "overlays": {
