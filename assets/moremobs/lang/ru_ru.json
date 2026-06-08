@@ -1,0 +1,37 @@
+{
+  "moremobs.midnightconfig.title": "Настройки More Mobs",
+  "moremobs.midnightconfig.empty": "",
+  "moremobs.midnightconfig.configure_ingame": "§dℹ Инфо:§r§f Чтобы настроить этот датапак для каждого мира отдельно,",
+  "moremobs.midnightconfig.configure_ingame2": "войдите в мир и выполните команду §o/function more_mobs:settings§r.",
+  "moremobs.midnightconfig.empty2": "",
+  "moremobs.midnightconfig.global_settings": "§n§l-=- Глобальные настройки -=-",
+  "moremobs.midnightconfig.info": "§dℹ Инфо:§r§f Эти настройки будут применены ко всем мирам.",
+  "moremobs.midnightconfig.info2": "Чтобы глобальные настройки вступили в силу, не забудьте перезайти в мир",
+  "moremobs.midnightconfig.empty3": "",
+  "moremobs.midnightconfig.empty4": "",
+
+  "moremobs.midnightconfig.enable_heads": "Включить кастомные головы",
+  "moremobs.midnightconfig.enable_heads.tooltip": "По умолчанию: §aДа§f\nЕсли включено, поддерживаемым гуманоидным мобам будут присваиваться кастомные головы.",
+  "moremobs.midnightconfig.enable_head_drops": " └ Выпадение кастомных голов",
+  "moremobs.midnightconfig.enable_head_drops.tooltip": "По умолчанию: §aДа§f\nЧтобы вступило в силу, необходимо включить кастомные головы",
+  "moremobs.midnightconfig.enable_additional_loot": "Добавить дополнительный лут у некоторых мобов",
+  "moremobs.midnightconfig.enable_additional_loot.tooltip": "По умолчанию: §aДа§f\nНапример, недорогие инструменты и недорогая рыбацкая добыча",
+  "moremobs.midnightconfig.enable_additional_valuable_loot": " └ Добавить ценный лут",
+  "moremobs.midnightconfig.enable_additional_valuable_loot.tooltip": "По умолчанию: §aДа§f\nНапример, Дыхание дракона, Тотем бессмертия и Элитры",
+  "moremobs.midnightconfig.enable_upside_down_spiders": "Добавить потолочных пауков",
+  "moremobs.midnightconfig.enable_upside_down_spiders.tooltip": "По умолчанию: §aДа§f\nЕсли включено, пауки будут переворачиваться вверх ногами, когда висят на потолке\nНедоступно на версиях 1.20.3-1.21.2 из-за MC-128225",
+  "moremobs.midnightconfig.enable_let_undead_mobs_burn_in_daylight": "Мобы с кастомными головами будут сгорать",
+  "moremobs.midnightconfig.enable_let_undead_mobs_burn_in_daylight.tooltip": "По умолчанию: §aДа§f\nЕсли включено, мобы с кастомными головами будут сгорать при дневном свете\nТолько на версиях 1.19.4+",
+
+  "moremobs.midnightconfig.enum.bool.WORLD": "§bДля каждого мира",
+  "moremobs.midnightconfig.enum.bool.YES": "§a[✔] Да",
+  "moremobs.midnightconfig.enum.bool.NO": "§c[❌] Нет",
+
+  "modmenu.summaryTranslation.moremobs": "Расширяет разнообразие гуманоидных мобов за счёт кастомных голов и добавления невышедших мобов!",
+  "modmenu.descriptionTranslation.moremobs": "В этом датапаке используется §lболее 85§r кастомных голов игроков, которые можно получить и разместить в вашем мире. \nРесурспак не требуется! \nПоддерживаемые существа: Зомби, кадавр, утопленник, скелет, зимогор, визер-скелет, муушрум, пиглин, разбойник, заклинатель и поборник \nИспользуйте команду §o/function §omore_mobs:settings§r, чтобы открыть меню настроек для конкретного мира, и/или установите MidnightLib для глобальных настроек во всех мирах.",
+  "modmenu.donate": "Поддержать",
+  "modmenu.modrinth": "Modrinth",
+  "modmenu.curseforge": "CurseForge",
+  "modmenu.youtube": "YouTube",
+  "modmenu.wiki": "Вики"
+}
