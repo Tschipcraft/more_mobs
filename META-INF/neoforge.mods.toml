@@ -17,6 +17,7 @@ No Resource pack needed!
 Execute the command §o/function §omore_mobs:settings§r for a world-specific settings menu and/or install MidnightLib for global settings across all worlds.
 '''
 authors="Tschipcraft"
+credits="Texaliuz, itsrec0very"
 displayURL="https://modrinth.com/mod/HJR6V0I2"
 issueTrackerURL="https://github.com/Tschipcraft/more_mobs/issues"
 updateJSONURL="https://api.modrinth.com/updates/HJR6V0I2/forge_updates.json?neoforge=only"
