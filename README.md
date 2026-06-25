@@ -9,7 +9,7 @@
   <a href="https://github.com/Tschipcraft/more_mobs/releases/latest"><img alt="GitHub Downloads" src="https://img.shields.io/github/downloads/Tschipcraft/more_mobs/total?logo=github&colorA=1b1b29&colorB=bd5216&style=for-the-badge"></a>
 </p>
 
-> A data pack/mod for Minecraft 1.14x-1.21x
+> A data pack/mod for Minecraft 1.14.x-26.2.x
 
 <details>
 <summary>YouTube showcase</summary>
