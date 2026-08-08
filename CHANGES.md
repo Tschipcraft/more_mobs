@@ -1,3 +1,2 @@
-- **Added support for Minecraft 26.2.x** ♨️
-  - Bumped pack format and protocol version
+- Optimized performance of the effect loop (Thanks @SJMakin, [#38](https://github.com/Tschipcraft/more_mobs/pull/38), closes [#40](https://github.com/Tschipcraft/more_mobs/issues/40))
 - Added Russian language support (Thanks @itsrec0very, [#35](https://github.com/Tschipcraft/more_mobs/pull/35))
