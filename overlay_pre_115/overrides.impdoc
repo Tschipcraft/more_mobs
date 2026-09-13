@@ -1,0 +1,6 @@
+@targets 1.21..26.3 Snapshot 6 (pre block state field renames)
+@changes particle commands
+
+Reverts to the old block state object fields:
+`id` -> `Name`
+`properties` -> `Properties`

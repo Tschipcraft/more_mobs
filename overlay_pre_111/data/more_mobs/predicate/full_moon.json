@@ -1,6 +1,6 @@
 {
   "//comment": "This predicate is currently not used by the data pack, but may come in handy if I decide to do something with it",
-  "type": "minecraft:time_check",
+  "condition": "minecraft:time_check",
   "clock": "minecraft:overworld",
   "value": {
     "min": 14000,
