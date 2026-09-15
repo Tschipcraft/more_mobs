@@ -1,4 +1,4 @@
-@targets 24w21a..25w02a
+@targets 24w21a..1.21.4 (exact); 25w02a equipment NBT only
 @changes function calls
 
 Reverts to old text component format:
