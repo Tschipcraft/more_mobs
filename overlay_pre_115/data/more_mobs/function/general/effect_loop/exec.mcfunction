@@ -29,8 +29,8 @@ execute as @s[type=minecraft:wither_skeleton,tag=ts.mm.crimson] at @s run partic
 
 execute as @s[type=minecraft:zombie,tag=ts.mm.enderman] at @s run particle minecraft:portal ~ ~1.3 ~ 0.1 0.4 0.1 0.5 3
 
-execute as @s[type=minecraft:husk,tag=ts.mm.mummy] at @s run particle minecraft:block{block_state:{id:"minecraft:sand"}} ~ ~1 ~ 0.2 0.4 0.2 0.1 7
-execute as @s[type=minecraft:skeleton,tag=ts.mm.pharaoh] at @s run particle minecraft:block{block_state:{id:"minecraft:sand"}} ~ ~1 ~ 0.2 0.4 0.2 0.1 7
+execute as @s[type=minecraft:husk,tag=ts.mm.mummy] at @s run particle minecraft:block{block_state:{Name:"minecraft:sand"}} ~ ~1 ~ 0.2 0.4 0.2 0.1 7
+execute as @s[type=minecraft:skeleton,tag=ts.mm.pharaoh] at @s run particle minecraft:block{block_state:{Name:"minecraft:sand"}} ~ ~1 ~ 0.2 0.4 0.2 0.1 7
 
 execute as @s[type=minecraft:drowned,tag=ts.mm.drowned] at @s run particle minecraft:falling_water ~ ~1 ~ 0.2 0.4 0.2 0.1 2
 execute as @s[type=minecraft:skeleton,tag=ts.mm.drowned] at @s run particle minecraft:falling_water ~ ~1 ~ 0.2 0.4 0.2 0.1 2

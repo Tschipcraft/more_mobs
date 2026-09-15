@@ -1,0 +1,10 @@
+@targets 1.21..26.3 Snapshot 3 (pre loot table rewrite)
+@changes predicates, loot tables and advancements
+
+Reverts to the old loot function/condition field names:
+`"type"` -> `"function"` (on loot functions)
+`"type"` -> `"condition"` (on predicates)
+`"modifier"` -> `"functions"` (on loot pool entries)
+
+Restores the implicit `minecraft:all_of`:
+`"player": {...}` -> `"player": [{...}]` (advancement conditions)

@@ -9,9 +9,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:player_head",
-          "modifier": [
+          "functions": [
             {
-              "type": "minecraft:copy_components",
+              "function": "minecraft:copy_components",
               "source": "block_entity",
               "include": [
                 "minecraft:profile",
@@ -31,18 +31,18 @@
     "rules": [
       {
         "type": "append",
-        "target": "pools[0].entries[0].modifier[0].include",
+        "target": "pools[0].entries[0].functions[0].include",
         "source": {
           "type": "reference",
-          "path": "pools[0].entries[0].modifier[0].include[3]"
+          "path": "pools[0].entries[0].functions[0].include[3]"
         }
       },
       {
         "type": "append",
-        "target": "pools[0].entries[0].modifier[0].include",
+        "target": "pools[0].entries[0].functions[0].include",
         "source": {
           "type": "reference",
-          "path": "pools[0].entries[0].modifier[0].include[4]"
+          "path": "pools[0].entries[0].functions[0].include[4]"
         }
       }
     ]

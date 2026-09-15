@@ -1,3 +1,6 @@
-- **Added support for Minecraft 26.2.x** ♨️
+- **Added support for Minecraft 26.3.x** 🌲
+  - Migrated loot tables, predicates, advancements, and particle commands to the 26.3 format
   - Bumped pack format and protocol version
-- Added Russian language support (Thanks @itsrec0very, [#35](https://github.com/Tschipcraft/more_mobs/pull/35))
+- Optimized performance of the effect loop (Thanks @SJMakin, [#38](https://github.com/Tschipcraft/more_mobs/pull/38), closes [#40](https://github.com/Tschipcraft/more_mobs/issues/40))
+- Fixed Skeleton Creeper transformation throwing an error (closes [#39](https://github.com/Tschipcraft/more_mobs/issues/39))
+- Fixed spiders not turning upside down when hanging from ceilings since 1.21.5
