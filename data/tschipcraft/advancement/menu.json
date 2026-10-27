@@ -16,6 +16,6 @@
     }
   },
   "rewards": {
-    "function": "tschipcraft:menu"
+    "function": "tschipcraft:menu_trigger"
   }
 }

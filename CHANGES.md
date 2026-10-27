@@ -1,6 +1,1 @@
-- **Added support for Minecraft 26.3.x** 🌲
-  - Migrated loot tables, predicates, advancements, and particle commands to the 26.3 format
-  - Bumped pack format and protocol version
-- Optimized performance of the effect loop (Thanks @SJMakin, [#38](https://github.com/Tschipcraft/more_mobs/pull/38), closes [#40](https://github.com/Tschipcraft/more_mobs/issues/40))
-- Fixed Skeleton Creeper transformation throwing an error (closes [#39](https://github.com/Tschipcraft/more_mobs/issues/39))
-- Fixed spiders not turning upside down when hanging from ceilings since 1.21.5
+- Fixed the menu opening when its advancement is granted by other means, such as `/advancement grant @s everything`
